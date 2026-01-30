@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "SPY",
+    "strike": "450",
+    "callPut": "CALL",
+    "expiry": "2026-02-07",
+    "premium": 250000,
+    "type": "sweep",
+    "timestamp": "2026-01-30T10:30:00Z"
+  },
+  {
+    "symbol": "AAPL",
+    "strike": "185",
+    "callPut": "PUT",
+    "expiry": "2026-02-14",
+    "premium": 150000,
+    "type": "block",
+    "timestamp": "2026-01-30T10:35:00Z"
+  },
+  {
+    "symbol": "TSLA",
+    "strike": "220",
+    "callPut": "CALL",
+    "expiry": "2026-02-07",
+    "premium": 500000,
+    "type": "sweep",
+    "timestamp": "2026-01-30T10:40:00Z"
+  }
+]
