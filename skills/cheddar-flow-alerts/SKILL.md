@@ -1,83 +1,122 @@
 ---
 name: cheddar-flow-alerts
-description: Monitor Cheddar Flow for options trade entries and send real-time alerts via Discord, Signal, or other channels. Use when user wants to track unusual options activity, sweep trades, or block trades from Cheddar Flow.
+description: Monitor Cheddar Flow X/Twitter (@CheddarFlow) for options trade alerts and send real-time notifications via Discord. Uses free web scraping - NO API KEY NEEDED. Tracks unusual options activity, sweep trades, and block trades.
 ---
 
-# Cheddar Flow Trade Alerts
+# Cheddar Flow X/Twitter Alerts
 
-Monitors Cheddar Flow for new trade entries and sends instant alerts.
+Monitors @CheddarFlow on X/Twitter for trade alerts and sends instant Discord notifications.
 
-## Supported Alert Types
+**NO PAID API REQUIRED** - Uses free web scraping
 
-- **Unusual Options Activity** - High volume trades
+## How It Works
+
+1. Checks @CheddarFlow X/Twitter every few minutes
+2. Detects new trade alert tweets
+3. Parses trade details (symbol, strike, expiry, type)
+4. Sends Discord alert instantly
+
+## Alert Types Tracked
+
 - **Sweep Trades** - Multi-exchange orders
-- **Block Trades** - Large institutional orders
-- **Premium Threshold** - Trades above $X amount
-- **Symbol Watchlist** - Specific tickers you care about
+- **Block Trades** - Large institutional orders  
+- **Unusual Options Activity** - High volume trades
+- **Flow Alerts** - Real-time trade notifications
 
 ## Configuration
 
-Create `~/.cheddar-config.json`:
+Edit `~/.cheddar-config.json`:
 ```json
 {
-  "apiKey": "your_cheddar_api_key",
-  "discordChannel": "your_discord_channel_id",
-  "alertThresholds": {
-    "minPremium": 100000,
-    "symbols": ["SPY", "QQQ", "AAPL", "TSLA"],
-    "tradeTypes": ["sweep", "block"]
-  }
+  "discordChannel": "1466666758642340074",
+  "minPremium": 100000,
+  "symbols": ["SPY", "QQQ", "AAPL", "TSLA", "NVDA", "AMD"],
+  "keywords": ["sweep", "block", "unusual", "flow"]
 }
 ```
 
 ## Usage
 
-### Check for new trades (manual)
+### Manual Check
 ```bash
-./scripts/check-cheddar.sh
+./scripts/check-x-scraper.sh
 ```
 
-### Start monitoring (continuous)
+### Continuous Monitoring
 ```bash
 ./scripts/monitor-cheddar.sh
 ```
 
-### Set up automated alerts
+### Automated (via Launchd)
 ```bash
-# Add to crontab for every 5 minutes
-*/5 * * * * cd /Users/nemotaka/clawd/skills/cheddar-flow-alerts && ./scripts/check-cheddar.sh
+# Already set up - checks every 5 minutes
+launchctl list | grep cheddar
 ```
 
 ## Alert Format
 
-Discord alerts include:
-- Ticker symbol
-- Strike price & expiration
-- Call/Put type
-- Premium amount
-- Trade type (sweep/block)
-- Timestamp
+Discord notifications include:
+🧀 **Cheddar Flow Alert**
+
+**Symbol:** AAPL
+**Strike:** 185 CALL
+**Expiry:** Feb 14
+**Type:** SWEEP
+**Premium:** $250,000
+
+⏰ 10:30 AM
+
+## Setting Up
+
+1. **Install dependencies** (if not already):
+```bash
+brew install jq
+```
+
+2. **Test the scraper**:
+```bash
+cd /Users/nemotaka/clawd/skills/cheddar-flow-alerts
+./scripts/check-x-scraper.sh
+```
+
+3. **Set up Discord channel** in config
+
+4. **Enable automated checking**:
+```bash
+./scripts/schedule-cheddar-launchd.sh
+```
 
 ## Commands
 
 | Command | Description |
 |---------|-------------|
-| `check-now` | Check for new trades immediately |
-| `set-threshold <amount>` | Set minimum premium alert |
-| `add-symbol <symbol>` | Add ticker to watchlist |
-| `remove-symbol <symbol>` | Remove ticker from watchlist |
-| `status` | Show current configuration |
+| `check-x-scraper.sh` | Check X/Twitter now |
+| `monitor-cheddar.sh` | Run continuous monitor |
+| `setup.sh` | Interactive setup wizard |
 
-## Getting Cheddar Flow Access
+## Logs
 
-1. Subscribe at https://cheddarflow.com
-2. Get API key from dashboard
-3. Add to config file
+Check logs at:
+```bash
+tail -f /Users/nemotaka/clawd/logs/cheddar-alerts.log
+```
 
 ## Troubleshooting
 
-**No alerts coming through?**
-- Check API key is valid
+**No alerts?**
+- Check internet connection
 - Verify Discord channel ID
-- Check alert thresholds aren't too high
-- Review logs in `logs/cheddar-alerts.log`
+- Review logs for errors
+- X/Twitter may block scrapers (use VPN if needed)
+
+**Missing trades?**
+- X/Twitter rate limits may apply
+- Increase check frequency if needed
+- Consider using X Premium API for production
+
+## Limitations
+
+- Free scraper may be less reliable than paid API
+- X/Twitter can block scrapers
+- 5-10 minute delay possible
+- Best for personal use, not professional trading
