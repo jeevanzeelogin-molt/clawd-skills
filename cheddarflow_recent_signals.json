@@ -1,0 +1,155 @@
+{
+  "collection_date": "2026-01-29",
+  "period": "Recent signals (last 7 days)",
+  "signals": [
+    {
+      "date": "2026-01-29",
+      "time": "~14:00",
+      "ticker": "SLV",
+      "signal_type": "Put Sweep",
+      "details": "$1.3M Put Sweep - Institutional Hedge Into February",
+      "direction": "bearish",
+      "size": "$1.3M",
+      "sentiment": "hedge"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~13:30",
+      "ticker": "SPY",
+      "signal_type": "Gamma Level",
+      "details": "$SPY the 700 strike is still acting as a call wall",
+      "direction": "neutral/resistance",
+      "size": "$1.1B exposure",
+      "sentiment": "bullish if holds"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~12:30",
+      "ticker": "SPY/QQQ",
+      "signal_type": "Flow Activity",
+      "details": "Wow $SPY & $QQQ flow got super ACTIVE today. Rare to see this much premium",
+      "direction": "mixed",
+      "size": "N/A",
+      "sentiment": "high activity"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~10:00",
+      "ticker": "Silver",
+      "signal_type": "Whale Alert",
+      "details": "it's time to have a serious discussion about how insane Silver flow is today. This has NEVER happened before",
+      "direction": "bullish",
+      "size": "Unusual volume",
+      "sentiment": "extreme bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~16:00",
+      "ticker": "AAPL",
+      "signal_type": "Earnings",
+      "details": "EARNINGS EPS: $2.84, est $2.67 (Beat) Revenue: $143.7B, est $138.5B (Beat)",
+      "direction": "bullish",
+      "size": "N/A",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~15:30",
+      "ticker": "META",
+      "signal_type": "Earnings",
+      "details": "4Q Revenue: $59.89B (vs. $58.42B est.) Beat. 1Q Revenue Guidance: $53.5B–$56.5B (vs. $51.27B est.)",
+      "direction": "bullish",
+      "size": "N/A",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~13:30",
+      "ticker": "TSLA",
+      "signal_type": "Earnings Play",
+      "details": "Giant $TSLA whale just bought $5.6 MILLION worth of calls. TSLA reports earnings after the bell",
+      "direction": "bullish",
+      "size": "$5.6M",
+      "sentiment": "very bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~12:00",
+      "ticker": "SPY",
+      "signal_type": "Gamma Level",
+      "details": "SPY was able to satisfy the elusive 700 strike today. There's now $1.1 BILLION worth of exposure at that strike",
+      "direction": "neutral/resistance",
+      "size": "$1.1B",
+      "sentiment": "key level"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~11:00",
+      "ticker": "QQQ",
+      "signal_type": "Flow Alert",
+      "details": "$QQQ Flow is getting ACTIVE ahead of FOMC",
+      "direction": "mixed",
+      "size": "N/A",
+      "sentiment": "pre-event positioning"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~08:00",
+      "ticker": "Silver",
+      "signal_type": "Whale Alert",
+      "details": "Retail: 'Silver has topped' Random Whale: 'Hold my beer'",
+      "direction": "bullish",
+      "size": "N/A",
+      "sentiment": "contrarian bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~06:00",
+      "ticker": "Bitcoin",
+      "signal_type": "Call Buying",
+      "details": "Someone is loading up on Bitcoin calls",
+      "direction": "bullish",
+      "size": "N/A",
+      "sentiment": "bullish"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "~10:00",
+      "ticker": "Markets",
+      "signal_type": "Sentiment",
+      "details": "Markets haven't been this risk-on since 2021, according to Goldman Sachs",
+      "direction": "bullish",
+      "size": "N/A",
+      "sentiment": "risk-on"
+    },
+    {
+      "date": "2026-01-26",
+      "time": "~09:00",
+      "ticker": "SPY",
+      "signal_type": "Gamma Level",
+      "details": "$SPY now has $3.6 BILLION worth of gamma exposure @ 695 And $1 BILLION @ 700",
+      "direction": "neutral",
+      "size": "$3.6B @ 695, $1B @ 700",
+      "sentiment": "key levels"
+    }
+  ],
+  "summary": {
+    "total_signals": 13,
+    "bullish_signals": 8,
+    "bearish_signals": 1,
+    "neutral_levels": 3,
+    "mixed_unclear": 1,
+    "highest_conviction": [
+      "TSLA $5.6M call buy before earnings (Jan 28)",
+      "Silver 'never seen before' flow (Jan 28-29)",
+      "SPY 700 gamma wall - $1.1B exposure (Jan 28-29)"
+    ]
+  },
+  "performance_notes": {
+    "TSLA": "Jan 28: $5.6M calls before earnings. Post-earnings: Revenue miss but Operating Income/EPS beat. Stock moved up despite mixed results.",
+    "SPY": "700 strike acted as resistance/call wall. Multiple mentions of $1.1B+ exposure at this level.",
+    "Silver": "Extremely unusual activity flagged as 'never seen before'. Heavy call buying despite retail thinking it topped.",
+    "AAPL": "Earnings beat on EPS and Revenue. iPhone revenue strong.",
+    "META": "Strong earnings beat with above-estimate guidance."
+  }
+}

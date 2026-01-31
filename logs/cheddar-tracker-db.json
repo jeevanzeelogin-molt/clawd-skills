@@ -1,0 +1,69 @@
+{
+  "alerts": [
+    {
+      "id": 1769883906,
+      "symbol": "MU",
+      "direction": "PUT",
+      "signal": "SWEEP",
+      "premium": ".6M Deep ITM",
+      "entry_date": "2026-01-31",
+      "entry_time": "10:25:06",
+      "entry_price": "",
+      "strike_price": null,
+      "expiry": null,
+      "status": "OPEN",
+      "exit_price": null,
+      "return_pct": null,
+      "notes": ""
+    },
+    {
+      "id": 1769883906,
+      "symbol": "VIX",
+      "direction": "CALL",
+      "signal": "OTM",
+      "premium": "M OTM",
+      "entry_date": "2026-01-31",
+      "entry_time": "10:25:06",
+      "entry_price": "",
+      "strike_price": null,
+      "expiry": null,
+      "status": "OPEN",
+      "exit_price": null,
+      "return_pct": null,
+      "notes": ""
+    },
+    {
+      "id": 1769883907,
+      "symbol": "SPY",
+      "direction": "CALL",
+      "signal": "CALL",
+      "premium": "B Wall",
+      "entry_date": "2026-01-31",
+      "entry_time": "10:25:07",
+      "entry_price": "",
+      "strike_price": null,
+      "expiry": null,
+      "status": "OPEN",
+      "exit_price": null,
+      "return_pct": null,
+      "notes": ""
+    },
+    {
+      "id": 1769883907,
+      "symbol": "QQQ",
+      "direction": "PUT",
+      "signal": "OTM",
+      "premium": "Millions OTM",
+      "entry_date": "2026-01-31",
+      "entry_time": "10:25:07",
+      "entry_price": "",
+      "strike_price": null,
+      "expiry": null,
+      "status": "OPEN",
+      "exit_price": null,
+      "return_pct": null,
+      "notes": ""
+    }
+  ],
+  "active_trades": []
+}

@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "source": "Cheddar Flow X/Twitter (@CheddarFlow)",
+    "collection_method": "Discord feed monitoring (X API restricted)",
+    "collection_date": "2026-01-29",
+    "period_covered": "2026-01-26 to 2026-01-29",
+    "total_signals": 13,
+    "note": "Direct X/Twitter scraping blocked; data sourced from Cheddar Flow Discord/twitter-feed channel"
+  },
+  "signals": [
+    {
+      "date": "2026-01-29",
+      "time": "~14:00",
+      "ticker": "SLV",
+      "ticker_mentioned": "$SLV",
+      "signal_type": "Put Sweep",
+      "signal_types": ["sweep", "hedge"],
+      "dollar_amount": "$1.3M",
+      "amount_numeric": 1300000,
+      "direction": "bearish",
+      "details": "$1.3M Put Sweep - Institutional Hedge Into February",
+      "sentiment": "hedge"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~13:30",
+      "ticker": "SPY",
+      "ticker_mentioned": "$SPY",
+      "signal_type": "Gamma Level",
+      "signal_types": ["gamma", "call wall"],
+      "dollar_amount": "$1.1B",
+      "amount_numeric": 1100000000,
+      "direction": "neutral/resistance",
+      "details": "$SPY the 700 strike is still acting as a call wall",
+      "sentiment": "bullish if holds"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~12:30",
+      "ticker": "SPY/QQQ",
+      "ticker_mentioned": "$SPY, $QQQ",
+      "signal_type": "Flow Activity",
+      "signal_types": ["flow"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "mixed",
+      "details": "Wow $SPY & $QQQ flow got super ACTIVE today. Rare to see this much premium",
+      "sentiment": "high activity"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "~10:00",
+      "ticker": "Silver",
+      "ticker_mentioned": "Silver/SLV",
+      "signal_type": "Whale Alert",
+      "signal_types": ["whale"],
+      "dollar_amount": "Unusual volume",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "it's time to have a serious discussion about how insane Silver flow is today. This has NEVER happened before",
+      "sentiment": "extreme bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~16:00",
+      "ticker": "AAPL",
+      "ticker_mentioned": "$AAPL",
+      "signal_type": "Earnings",
+      "signal_types": ["earnings"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "EARNINGS EPS: $2.84, est $2.67 (Beat) Revenue: $143.7B, est $138.5B (Beat)",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~15:30",
+      "ticker": "META",
+      "ticker_mentioned": "$META",
+      "signal_type": "Earnings",
+      "signal_types": ["earnings"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "4Q Revenue: $59.89B (vs. $58.42B est.) Beat. 1Q Revenue Guidance: $53.5B–$56.5B (vs. $51.27B est.)",
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~13:30",
+      "ticker": "TSLA",
+      "ticker_mentioned": "$TSLA",
+      "signal_type": "Whale Alert",
+      "signal_types": ["whale", "earnings play"],
+      "dollar_amount": "$5.6M",
+      "amount_numeric": 5600000,
+      "direction": "bullish",
+      "details": "Giant $TSLA whale just bought $5.6 MILLION worth of calls. TSLA reports earnings after the bell",
+      "sentiment": "very bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~12:00",
+      "ticker": "SPY",
+      "ticker_mentioned": "$SPY",
+      "signal_type": "Gamma Level",
+      "signal_types": ["gamma"],
+      "dollar_amount": "$1.1B",
+      "amount_numeric": 1100000000,
+      "direction": "neutral/resistance",
+      "details": "SPY was able to satisfy the elusive 700 strike today. There's now $1.1 BILLION worth of exposure at that strike",
+      "sentiment": "key level"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~11:00",
+      "ticker": "QQQ",
+      "ticker_mentioned": "$QQQ",
+      "signal_type": "Flow Alert",
+      "signal_types": ["flow"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "mixed",
+      "details": "$QQQ Flow is getting ACTIVE ahead of FOMC",
+      "sentiment": "pre-event positioning"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~08:00",
+      "ticker": "Silver",
+      "ticker_mentioned": "Silver/SLV",
+      "signal_type": "Whale Alert",
+      "signal_types": ["whale", "contrarian"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "Retail: 'Silver has topped' Random Whale: 'Hold my beer'",
+      "sentiment": "contrarian bullish"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "~06:00",
+      "ticker": "Bitcoin",
+      "ticker_mentioned": "Bitcoin/BTC",
+      "signal_type": "Call Buying",
+      "signal_types": ["call buying"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "Someone is loading up on Bitcoin calls",
+      "sentiment": "bullish"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "~10:00",
+      "ticker": "Markets",
+      "ticker_mentioned": "$SPY, $QQQ",
+      "signal_type": "Sentiment",
+      "signal_types": ["sentiment", "macro"],
+      "dollar_amount": "N/A",
+      "amount_numeric": null,
+      "direction": "bullish",
+      "details": "Markets haven't been this risk-on since 2021, according to Goldman Sachs",
+      "sentiment": "risk-on"
+    },
+    {
+      "date": "2026-01-26",
+      "time": "~09:00",
+      "ticker": "SPY",
+      "ticker_mentioned": "$SPY",
+      "signal_type": "Gamma Level",
+      "signal_types": ["gamma"],
+      "dollar_amount": "$3.6B @ 695, $1B @ 700",
+      "amount_numeric": 3600000000,
+      "direction": "neutral",
+      "details": "$SPY now has $3.6 BILLION worth of gamma exposure @ 695 And $1 BILLION @ 700",
+      "sentiment": "key levels"
+    }
+  ],
+  "summary": {
+    "total_signals": 13,
+    "bullish_signals": 8,
+    "bearish_signals": 1,
+    "neutral_levels": 3,
+    "mixed_unclear": 1,
+    "highest_conviction": [
+      "TSLA $5.6M call buy before earnings (Jan 28)",
+      "Silver 'never seen before' flow (Jan 28-29)",
+      "SPY 700 gamma wall - $1.1B exposure (Jan 28-29)"
+    ]
+  },
+  "tickers_mentioned": {
+    "$SPY": 4,
+    "$QQQ": 3,
+    "$TSLA": 1,
+    "$AAPL": 1,
+    "$META": 1,
+    "$SLV": 1,
+    "Silver": 2,
+    "Bitcoin": 1
+  },
+  "signal_types_count": {
+    "whale": 3,
+    "gamma": 3,
+    "flow": 2,
+    "sweep": 1,
+    "earnings": 2,
+    "sentiment": 1,
+    "call buying": 1
+  }
+}

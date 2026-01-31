@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.clawd.cheddar-alerts</string>
+    <string>com.clawd.cheddar-3day-check</string>
     
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/nemotaka/clawd/skills/cheddar-flow-alerts/scripts/check-cheddar-v3.sh</string>
+        <string>/Users/nemotaka/clawd/skills/cheddar-flow-alerts/scripts/auto-3day-checker.sh</string>
     </array>
 
     <key>WorkingDirectory</key>
     <string>/Users/nemotaka/clawd/skills/cheddar-flow-alerts</string>
 
-    <key>StartInterval</key>
-    <integer>300</integer>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/nemotaka/clawd/logs/cheddar-alerts.log</string>
+    <string>/Users/nemotaka/clawd/logs/cheddar-3day-checker.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/nemotaka/clawd/logs/cheddar-alerts-error.log</string>
+    <string>/Users/nemotaka/clawd/logs/cheddar-3day-checker-error.log</string>
 
     <key>RunAtLoad</key>
     <false/>

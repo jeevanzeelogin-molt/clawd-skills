@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clawdbot Gateway Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-icon">🦞</span>
+        <h1>Clawdbot Gateway Manager</h1>
+      </div>
+      <div class="version">v1.0</div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      
+      <!-- Gateway Status Card -->
+      <section class="card gateway-card">
+        <div class="card-header">
+          <h2>Gateway Status</h2>
+          <div class="status-badge" id="gateway-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Checking...</span>
+          </div>
+        </div>
+        
+        <div class="card-body">
+          <div class="toggle-container">
+            <label class="toggle-switch">
+              <input type="checkbox" id="gateway-toggle">
+              <span class="toggle-slider"></span>
+            </label>
+            <span class="toggle-label" id="toggle-label">Gateway OFF</span>
+          </div>
+          
+          <div class="gateway-info">
+            <div class="info-row">
+              <span class="info-label">Port:</span>
+              <span class="info-value">18789</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Mode:</span>
+              <span class="info-value">Local</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Backup:</span>
+              <span class="info-value" id="backup-status">Gemini (Free)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Provider:</span>
+              <span class="info-value" id="current-provider">Kimi Code</span>
+            </div>
+          </div>
+          
+          <div class="action-buttons">
+            <button class="btn btn-secondary" id="restart-btn">
+              <span>🔄</span> Restart
+            </button>
+            <button class="btn btn-secondary" id="logs-btn">
+              <span>📋</span> View Logs
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Profile Switcher -->
+      <section class="card">
+        <div class="card-header">
+          <h2>Active Profile</h2>
+        </div>
+        <div class="card-body">
+          <div class="dropdown-container">
+            <select id="profile-select" class="dropdown">
+              <option>Loading profiles...</option>
+            </select>
+            <button class="btn btn-primary" id="switch-profile-btn">
+              Switch
+            </button>
+          </div>
+          <div class="profile-info" id="profile-info">
+            Current: <strong>default</strong>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Provider Switcher -->
+      <section class="card provider-card">
+        <div class="card-header">
+          <h2>AI Provider</h2>
+          <span class="badge" id="provider-badge">Auto</span>
+        </div>
+        <div class="card-body">
+          <div class="provider-status">
+            <div class="provider-item active" id="kimi-provider">
+              <span class="provider-icon">🟣</span>
+              <div class="provider-info">
+                <span class="provider-name">Kimi Code</span>
+                <span class="provider-status-text">Primary</span>
+              </div>
+            </div>
+            <div class="provider-item" id="gemini-provider">
+              <span class="provider-icon">🔵</span>
+              <div class="provider-info">
+                <span class="provider-name">Gemini Flash</span>
+                <span class="provider-status-text" id="gemini-status">Backup (Free)</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="auto-fallback-toggle">
+            <label class="toggle-switch">
+              <input type="checkbox" id="auto-fallback-toggle">
+              <span class="toggle-slider"></span>
+            </label>
+            <span class="toggle-label">Auto-fallback when tokens low</span>
+          </div>
+          
+          <div class="provider-actions">
+            <button class="btn btn-secondary" id="switch-kimi-btn">
+              <span>🟣</span> Use Kimi
+            </button>
+            <button class="btn btn-secondary" id="switch-gemini-btn">
+              <span>🔵</span> Use Gemini
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLI Manager -->
+      <section class="card cli-card">
+        <div class="card-header">
+          <h2>CLI Management</h2>
+          <span class="badge">Auto-install</span>
+        </div>
+        <div class="card-body">
+          <div class="cli-dropdown-container">
+            <select id="cli-select" class="dropdown">
+              <option value="">Select CLI to configure...</option>
+            </select>
+          </div>
+          
+          <div id="cli-details" class="cli-details hidden">
+            <div class="cli-status">
+              <span class="status-label">Status:</span>
+              <span class="status-value" id="cli-status-text">Unknown</span>
+            </div>
+            
+            <div class="cli-actions" id="cli-actions">
+              <button class="btn btn-primary" id="install-cli-btn">
+                <span>📦</span> Install
+              </button>
+              <button class="btn btn-secondary" id="auth-cli-btn">
+                <span>🔐</span> Setup Auth
+              </button>
+            </div>
+            
+            <div class="cli-info">
+              <a href="#" id="cli-website" target="_blank">Visit website →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Logs Modal -->
+    <div id="logs-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Gateway Logs</h3>
+          <button class="close-btn" id="close-logs">&times;</button>
+        </div>
+        <div class="modal-body">
+          <pre id="logs-content" class="logs-content">Loading...</pre>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" id="refresh-logs">Refresh</button>
+          <button class="btn btn-primary" id="close-logs-btn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

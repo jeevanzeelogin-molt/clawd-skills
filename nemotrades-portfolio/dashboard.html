@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemotrades Portfolio Optimizer | Live Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #334155;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid #334155;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #f8fafc;
+        }
+        
+        .stat-change {
+            font-size: 0.875rem;
+            margin-top: 4px;
+        }
+        
+        .positive { color: #22c55e; }
+        .negative { color: #ef4444; }
+        .neutral { color: #94a3b8; }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 968px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .panel {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid #334155;
+        }
+        
+        .panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #334155;
+        }
+        
+        .panel-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .panel-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+        
+        .icon-success { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+        .icon-progress { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+        .icon-pending { background: rgba(148, 163, 184, 0.2); color: #94a3b8; }
+        .icon-remove { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+        
+        .strategy-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .strategy-item {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 12px;
+            padding: 16px;
+            border-left: 4px solid;
+            transition: all 0.2s;
+        }
+        
+        .strategy-item:hover {
+            background: rgba(15, 23, 42, 0.8);
+            transform: translateX(4px);
+        }
+        
+        .strategy-item.completed { border-left-color: #22c55e; }
+        .strategy-item.in-progress { border-left-color: #3b82f6; }
+        .strategy-item.pending { border-left-color: #94a3b8; }
+        .strategy-item.remove { border-left-color: #ef4444; }
+        
+        .strategy-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .strategy-name {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .strategy-status {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .status-completed { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+        .status-progress { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+        .status-pending { background: rgba(148, 163, 184, 0.2); color: #94a3b8; }
+        .status-remove { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+        
+        .strategy-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+        
+        .strategy-stat {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 12px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .changes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .change-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 8px;
+            font-size: 0.875rem;
+        }
+        
+        .change-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+        
+        .change-added { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
+        .change-modified { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+        .change-removed { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            font-size: 0.875rem;
+            border-top: 1px solid #334155;
+            margin-top: 30px;
+        }
+        
+        .timestamp {
+            font-family: 'Courier New', monospace;
+            background: rgba(15, 23, 42, 0.6);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-title {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            margin-bottom: 8px;
+        }
+        
+        .highlight-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Nemotrades Portfolio Optimizer</h1>
+            <p class="subtitle">Live Strategy Optimization Dashboard | Beating MAR 208.6</p>
+            <p class="timestamp">Last Updated: January 30, 2026 11:20 AM PST</p>
+        </header>
+
+        <!-- Key Metrics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Current Portfolio MAR</div>
+                <div class="stat-value">208.6</div>
+                <div class="stat-change neutral">Baseline</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Target MAR</div>
+                <div class="stat-value" style="color: #8b5cf6;">230+</div>
+                <div class="stat-change positive">+10% Goal</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Strategies Optimized</div>
+                <div class="stat-value" style="color: #22c55e;">2/8</div>
+                <div class="stat-change positive">25% Complete</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best Improvement</div>
+                <div class="stat-value" style="color: #22c55e;">+23%</div>
+                <div class="stat-change positive">McRib Deluxe</div>
+            </div>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div class="dashboard-grid">
+            <!-- Left Panel: Strategy Status -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">
+                        <div class="panel-icon icon-success">✓</div>
+                        Strategy Optimization Status
+                    </div>
+                </div>
+                
+                <div class="strategy-list">
+                    <!-- McRib Deluxe - COMPLETED -->
+                    <div class="strategy-item completed">
+                        <div class="strategy-header">
+                            <span class="strategy-name">McRib Deluxe</span>
+                            <span class="strategy-status status-completed">Completed</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">MAR: 4.3 → <strong style="color: #22c55e;">5.3</strong></span>
+                            <span class="strategy-stat">MDD: -3.8% → <strong style="color: #22c55e;">-2.7%</strong></span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Iron Condor - IN PROGRESS -->
+                    <div class="strategy-item in-progress">
+                        <div class="strategy-header">
+                            <span class="strategy-name">1:45 Iron Condor</span>
+                            <span class="strategy-status status-progress">Testing</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">MAR: 3.3 → <strong>Testing...</strong></span>
+                            <span class="strategy-stat">Changes: Δ30→25, Wing 10→15</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- EOM Straddle - KEEP ORIGINAL -->
+                    <div class="strategy-item completed">
+                        <div class="strategy-header">
+                            <span class="strategy-name">EOM Straddle $35</span>
+                            <span class="strategy-status status-completed">Already Optimized</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">MAR: <strong style="color: #22c55e;">5.6</strong> (Keep)</span>
+                            <span class="strategy-stat">Win Rate: 86.7%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%; background: linear-gradient(90deg, #22c55e, #22c55e);"></div>
+                        </div>
+                    </div>
+
+                    <!-- A New 9/23 mod2 - IN PROGRESS -->
+                    <div class="strategy-item in-progress">
+                        <div class="strategy-header">
+                            <span class="strategy-name">A New 9/23 mod2</span>
+                            <span class="strategy-status status-progress">In Progress</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">MAR: 5.2 (Testing improvements)</span>
+                            <span class="strategy-stat">Adding stop loss...</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- 10 day RiC - REMOVE -->
+                    <div class="strategy-item remove">
+                        <div class="strategy-header">
+                            <span class="strategy-name">10 day RiC - 2</span>
+                            <span class="strategy-status status-remove">REMOVE</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">MAR: <strong style="color: #ef4444;">2.1</strong> (Lowest)</span>
+                            <span class="strategy-stat">MDD: <strong style="color: #ef4444;">-22.3%</strong> (Highest)</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%; background: #ef4444;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Other strategies - PENDING -->
+                    <div class="strategy-item pending">
+                        <div class="strategy-header">
+                            <span class="strategy-name">BWB Gap Down</span>
+                            <span class="strategy-status status-pending">Pending</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">Allocation: 6.21%</span>
+                            <span class="strategy-stat">Status: Verify MAR stable</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="strategy-item pending">
+                        <div class="strategy-header">
+                            <span class="strategy-name">Dan 11/14 - mon</span>
+                            <span class="strategy-status status-pending">Pending</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">Allocation: 2.2%</span>
+                            <span class="strategy-stat">Status: Queue</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="strategy-item pending">
+                        <div class="strategy-header">
+                            <span class="strategy-name">New JonE 42 Delta</span>
+                            <span class="strategy-status status-pending">Pending</span>
+                        </div>
+                        <div class="strategy-stats">
+                            <span class="strategy-stat">Allocation: 4%</span>
+                            <span class="strategy-stat">Status: Queue</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Key Changes & Insights -->
+            <div>
+                <!-- Success Story -->
+                <div class="highlight-box">
+                    <div class="highlight-title">🏆 Best Optimization Result</div>
+                    <div class="highlight-value">+23%</div>
+                    <div style="margin-top: 8px; color: #22c55e; font-weight: 600;">McRib Deluxe MAR Improvement</div>
+                </div>
+
+                <!-- Key Changes That Worked -->
+                <div class="panel" style="margin-bottom: 20px;">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <div class="panel-icon icon-success">✓</div>
+                            Changes That Worked
+                        </div>
+                    </div>
+                    <div class="changes-list">
+                        <div class="change-item">
+                            <div class="change-icon change-added">+</div>
+                            <span>Added <strong>200% Stop Loss</strong> to limit downside</span>
+                        </div>
+                        <div class="change-item">
+                            <div class="change-icon change-modified">~</div>
+                            <span>Tightened exits: 0.4% → <strong>0.3%</strong> (faster profits)</span>
+                        </div>
+                        <div class="change-item">
+                            <div class="change-icon change-added">+</div>
+                            <span>Added <strong>Max VIX = 25</strong> filter</span>
+                        </div>
+                        <div class="change-item">
+                            <div class="change-icon change-modified">~</div>
+                            <span>Increased VIX filter: 0.4% → <strong>0.5%</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What Didn't Work -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <div class="panel-icon icon-remove">✗</div>
+                            Changes to Avoid
+                        </div>
+                    </div>
+                    <div class="changes-list">
+                        <div class="change-item">
+                            <div class="change-icon change-removed">-</div>
+                            <span>EOM Straddle: Adding VIX filters <strong>hurt</strong> performance (MAR 5.6 → 4.7)</span>
+                        </div>
+                        <div class="change-item">
+                            <div class="change-icon change-removed">-</div>
+                            <span>Simply increasing <strong>allocation %</strong> doesn't improve MAR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Insights Panel -->
+        <div class="panel" style="margin-bottom: 30px;">
+            <div class="panel-header">
+                <div class="panel-title">
+                    <div class="panel-icon icon-progress">💡</div>
+                    Key Learnings & Next Steps
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div>
+                    <h4 style="color: #22c55e; margin-bottom: 10px;">✓ What Improves MAR:</h4>
+                    <ul style="color: #94a3b8; line-height: 1.8; padding-left: 20px;">
+                        <li>Adding stop losses (200% works well)</li>
+                        <li>Tightening profit exits</li>
+                        <li>Adding Max VIX filters</li>
+                        <li>More selective entry criteria</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #ef4444; margin-bottom: 10px;">✗ What Doesn't Help:</h4>
+                    <ul style="color: #94a3b8; line-height: 1.8; padding-left: 20px;">
+                        <li>Just increasing allocation %</li>
+                        <li>Adding filters to already-good strategies</li>
+                        <li>Making entry criteria too strict</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #3b82f6; margin-bottom: 10px;">→ Next Actions:</h4>
+                    <ul style="color: #94a3b8; line-height: 1.8; padding-left: 20px;">
+                        <li>Remove 10 day RiC (immediate boost)</li>
+                        <li>Complete Iron Condor optimization</li>
+                        <li>Test Friday removal on McRib</li>
+                        <li>Run full portfolio backtest</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Nemotrades Portfolio Optimizer | Option Omega Integration</p>
+            <p style="margin-top: 8px; font-size: 0.75rem;">Built with Clawdbot Automation | Real-time Strategy Analysis</p>
+        </footer>
+    </div>
+</body>
+</html>

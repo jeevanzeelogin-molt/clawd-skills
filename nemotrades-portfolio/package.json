@@ -1,0 +1,16 @@
+{
+  "name": "nemotrades-portfolio-optimizer",
+  "version": "1.0.0",
+  "description": "Option Omega Portfolio Optimizer for Nemotrades",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "analyze": "node src/analyze-portfolio.js",
+    "optimize": "node src/optimize-strategies.js",
+    "dashboard": "node src/dashboard.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "fs-extra": "^11.0.0"
+  }
+}

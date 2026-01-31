@@ -1,0 +1,44 @@
+{
+  "strategies": [
+    {
+      "name": "SPX_Iron_Condor",
+      "cagr": 0.42,
+      "max_drawdown": -0.12,
+      "volatility": 0.15,
+      "mar": 3.5,
+      "description": "0DTE/1DTE Iron Condors on SPX"
+    },
+    {
+      "name": "SPX_Credit_Spreads",
+      "cagr": 0.55,
+      "max_drawdown": -0.18,
+      "volatility": 0.22,
+      "mar": 3.06,
+      "description": "Directional credit spreads on SPX"
+    },
+    {
+      "name": "SPX_Butterflies",
+      "cagr": 0.35,
+      "max_drawdown": -0.08,
+      "volatility": 0.12,
+      "mar": 4.38,
+      "description": "Range-bound butterfly strategies"
+    },
+    {
+      "name": "VIX_Calendar",
+      "cagr": 0.28,
+      "max_drawdown": -0.15,
+      "volatility": 0.18,
+      "mar": 1.87,
+      "description": "VIX calendar spreads for volatility hedging"
+    },
+    {
+      "name": "Earnings_Straddles",
+      "cagr": 0.65,
+      "max_drawdown": -0.25,
+      "volatility": 0.35,
+      "mar": 2.6,
+      "description": "Pre-earnings straddles on high IV stocks"
+    }
+  ]
+}

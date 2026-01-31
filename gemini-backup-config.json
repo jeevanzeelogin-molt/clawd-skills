@@ -1,0 +1,67 @@
+{
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "gemini": {
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+        "apiKey": "${GEMINI_API_KEY}",
+        "api": "gemini",
+        "models": [
+          {
+            "id": "gemini-2.0-flash-exp",
+            "name": "Gemini 2.0 Flash",
+            "reasoning": false,
+            "input": ["text", "image"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "gemini-exp-1206",
+            "name": "Gemini Experimental",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "gemini/gemini-2.0-flash-exp": {
+          "alias": "Gemini Flash"
+        },
+        "gemini/gemini-exp-1206": {
+          "alias": "Gemini Exp"
+        }
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "gemini:backup": {
+        "provider": "gemini",
+        "mode": "api_key"
+      }
+    },
+    "order": {
+      "gemini": [
+        "gemini:backup"
+      ]
+    }
+  }
+}

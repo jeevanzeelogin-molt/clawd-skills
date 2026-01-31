@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "skills": {
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1769745926332
+    },
+    "youtube-transcript": {
+      "version": "1.0.1",
+      "installedAt": 1769745928158
+    },
+    "youtube": {
+      "version": "1.0.1",
+      "installedAt": 1769745929466
+    },
+    "yahoo-finance": {
+      "version": "1.0.0",
+      "installedAt": 1769745930820
+    },
+    "clawddocs": {
+      "version": "1.2.2",
+      "installedAt": 1769745960022
+    },
+    "superdesign": {
+      "version": "1.0.0",
+      "installedAt": 1769745961195
+    },
+    "byterover": {
+      "version": "1.2.2",
+      "installedAt": 1769745962995
+    },
+    "answeroverflow": {
+      "version": "1.0.2",
+      "installedAt": 1769745964347
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1769745966138
+    },
+    "dont-hack-me": {
+      "version": "1.0.1",
+      "installedAt": 1769745967508
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1769745969287
+    },
+    "cost-report": {
+      "version": "1.0.0",
+      "installedAt": 1769745971018
+    },
+    "stock-market-pro": {
+      "version": "1.1.0",
+      "installedAt": 1769745993928
+    },
+    "exa-web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1769745995533
+    },
+    "playwright-cli": {
+      "version": "1.0.1",
+      "installedAt": 1769745997196
+    },
+    "tailscale": {
+      "version": "1.0.0",
+      "installedAt": 1769745998740
+    },
+    "supabase": {
+      "version": "1.0.0",
+      "installedAt": 1769746000221
+    },
+    "second-brain": {
+      "version": "0.1.4",
+      "installedAt": 1769746001829
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1769804205743
+    },
+    "security-audit": {
+      "version": "1.0.0",
+      "installedAt": 1769804223008
+    },
+    "email-prompt-injection-defense": {
+      "version": "1.0.1",
+      "installedAt": 1769804232765
+    }
+  }
+}

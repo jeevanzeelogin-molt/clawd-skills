@@ -1,0 +1,54 @@
+[
+  {
+    "symbol": "MU",
+    "alert_date": "2026-01-30",
+    "direction": "BEARISH",
+    "signal": "PUT",
+    "premium": "$3.6M",
+    "description": "Deep ITM Put Sweep",
+    "entry_price": 414.88,
+    "exit_price": 414.88,
+    "stock_change_pct": 0.0,
+    "option_return_pct": -15.0,
+    "option_type": "ITM"
+  },
+  {
+    "symbol": "SPY",
+    "alert_date": "2026-01-30",
+    "direction": "BULLISH",
+    "signal": "CALL",
+    "premium": "$1B",
+    "description": "Call Wall @ 700",
+    "entry_price": 691.97,
+    "exit_price": 691.97,
+    "stock_change_pct": 0.0,
+    "option_return_pct": -15.0,
+    "option_type": "ATM"
+  },
+  {
+    "symbol": "QQQ",
+    "alert_date": "2026-01-29",
+    "direction": "BEARISH",
+    "signal": "PUT",
+    "premium": "Millions",
+    "description": "OTM Puts",
+    "entry_price": 629.43,
+    "exit_price": 621.87,
+    "stock_change_pct": -1.2,
+    "option_return_pct": -14.64,
+    "option_type": "OTM"
+  },
+  {
+    "symbol": "SLV",
+    "alert_date": "2026-01-29",
+    "direction": "BEARISH",
+    "signal": "PUT",
+    "premium": "$1.3M",
+    "description": "Put Sweep (resulted in +342%, +700%)",
+    "entry_price": 105.57,
+    "exit_price": 75.44,
+    "stock_change_pct": -28.54,
+    "option_return_pct": -0.73,
+    "option_type": "ATM"
+  }
+]

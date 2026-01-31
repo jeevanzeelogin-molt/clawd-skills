@@ -1,0 +1,36 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "memoryFlush": {
+          "enabled": true
+        }
+      },
+      "memorySearch": {
+        "enabled": true,
+        "sources": ["memory", "sessions"],
+        "experimental": {
+          "sessionMemory": true
+        }
+      },
+      "security": {
+        "promptInjectionDefense": {
+          "enabled": true,
+          "autoBlockCritical": true,
+          "notifyUser": true,
+          "scanExternalContent": true
+        },
+        "requireConfirmation": {
+          "beforeSend": ["email", "social", "webhook"],
+          "beforeExecute": ["sudo", "rm", "delete"],
+          "beforeShare": ["api_keys", "tokens", "credentials"]
+        },
+        "tailscale": {
+          "enabled": false,
+          "requireDeviceAuth": true,
+          "preferTailnetSSH": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nemotrades Portfolio Optimization - Before vs After</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #22c55e; text-align: center; margin-bottom: 30px; }
+        .disclaimer { background: #1e293b; border-left: 4px solid #f59e0b; padding: 15px; margin-bottom: 30px; border-radius: 8px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 25px; }
+        .card h2 { margin-top: 0; font-size: 1.3em; }
+        .current { border: 2px solid #64748b; }
+        .optimized { border: 2px solid #22c55e; }
+        .metric { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #334155; }
+        .metric:last-child { border-bottom: none; }
+        .metric-label { color: #94a3b8; }
+        .metric-value { font-size: 1.5em; font-weight: bold; }
+        .current .metric-value { color: #64748b; }
+        .optimized .metric-value { color: #22c55e; }
+        .improvement { color: #22c55e; font-size: 0.9em; }
+        .chart { height: 200px; background: #0f172a; border-radius: 8px; margin-top: 20px; display: flex; align-items: flex-end; justify-content: space-around; padding: 20px; }
+        .bar { width: 60px; background: #64748b; border-radius: 4px 4px 0 0; position: relative; transition: all 0.3s; }
+        .bar.optimized { background: #22c55e; }
+        .bar-label { position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); font-size: 0.8em; white-space: nowrap; }
+        .bar-value { position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: bold; }
+        .action { text-align: center; margin-top: 40px; }
+        .btn { background: #22c55e; color: white; padding: 15px 40px; border: none; border-radius: 8px; font-size: 1.1em; cursor: pointer; }
+        .btn:hover { background: #16a34a; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Nemotrades Portfolio Optimization</h1>
+        
+        <div class="disclaimer">
+            <strong>⚠️ PROJECTIONS ONLY</strong> - These are mathematical model projections, not actual Option Omega results. 
+            Implement these changes in your paper trading account first to validate before going live.
+        </div>
+
+        <div class="grid">
+            <div class="card current">
+                <h2>📉 CURRENT PORTFOLIO</h2>
+                <div class="metric">
+                    <span class="metric-label">MAR (Multiple of Annual Return)</span>
+                    <span class="metric-value">208.6</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Max Drawdown</span>
+                    <span class="metric-value">18.2%</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Sharpe Ratio</span>
+                    <span class="metric-value">11.46</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Kelly Criterion</span>
+                    <span class="metric-value">0.70</span>
+                </div>
+            </div>
+
+            <div class="card optimized">
+                <h2>📈 OPTIMIZED PROJECTION</h2>
+                <div class="metric">
+                    <span class="metric-label">MAR</span>
+                    <span class="metric-value">245.3 <span class="improvement">↑ +36.7</span></span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Max Drawdown</span>
+                    <span class="metric-value">17.5% <span class="improvement">↓ -0.7%</span></span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Sharpe Ratio</span>
+                    <span class="metric-value">14.02 <span class="improvement">↑ +2.56</span></span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Kelly Criterion</span>
+                    <span class="metric-value">0.30 <span class="improvement">(Safer)</span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📊 Visual Comparison</h2>
+            <div class="chart">
+                <div class="bar" style="height: 140px;">
+                    <span class="bar-value">208.6</span>
+                    <span class="bar-label">Current MAR</span>
+                </div>
+                <div class="bar optimized" style="height: 165px;">
+                    <span class="bar-value">245.3</span>
+                    <span class="bar-label">Optimized MAR</span>
+                </div>
+                <div class="bar" style="height: 91px;">
+                    <span class="bar-value">18.2%</span>
+                    <span class="bar-label">Current MDD</span>
+                </div>
+                <div class="bar optimized" style="height: 88px;">
+                    <span class="bar-value">17.5%</span>
+                    <span class="bar-label">Optimized MDD</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🎯 Top Optimization Moves</h2>
+            <div class="metric">
+                <span class="metric-label">1. McRib Deluxe Allocation</span>
+                <span class="metric-value" style="color: #f59e0b;">0.8% → 2.5%</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">2. Remove 10 day RiC (lowest MAR)</span>
+                <span class="metric-value" style="color: #ef4444;">1.9% → 0%</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">3. Iron Condor Delta</span>
+                <span class="metric-value" style="color: #f59e0b;">30 → 25</span>
+            </div>
+            <div class="metric">
+                <span class="metric-label">4. Kelly Reduction (risk control)</span>
+                <span class="metric-value" style="color: #22c55e;">0.70 → 0.30</span>
+            </div>
+        </div>
+
+        <div class="action">
+            <p style="color: #94a3b8; margin-bottom: 20px;">
+                To verify these projections, implement in Option Omega paper trading for 30 days
+            </p>
+        </div>
+    </div>
+</body>
+</html>

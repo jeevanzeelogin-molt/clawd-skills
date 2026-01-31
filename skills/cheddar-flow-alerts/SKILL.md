@@ -1,11 +1,13 @@
 ---
 name: cheddar-flow-alerts
-description: Monitor Cheddar Flow X/Twitter (@CheddarFlow) for options trade alerts and send real-time notifications via Discord. Uses free web scraping - NO API KEY NEEDED. Tracks unusual options activity, sweep trades, and block trades.
+description: Monitor Cheddar Flow X/Twitter (@CheddarFlow) for options trade alerts and send real-time notifications via Discord. Uses free web scraping - NO API KEY NEEDED. Tracks unusual options activity, sweep trades, and block trades. V2 includes signal strength scoring and pattern detection.
 ---
 
-# Cheddar Flow X/Twitter Alerts
+# 🧀 Cheddar Flow X/Twitter Alerts v2
 
-Monitors @CheddarFlow on X/Twitter for trade alerts and sends instant Discord notifications.
+**Intelligent options flow monitoring with signal strength scoring**
+
+Monitors @CheddarFlow on X/Twitter for trade alerts and sends instant Discord notifications with **signal strength analysis**.
 
 **NO PAID API REQUIRED** - Uses free web scraping
 
@@ -16,12 +18,37 @@ Monitors @CheddarFlow on X/Twitter for trade alerts and sends instant Discord no
 3. Parses trade details (symbol, strike, expiry, type)
 4. Sends Discord alert instantly
 
+## 🆕 v2 Features
+
+- 🎯 **Signal Strength Scoring** (1-10) - Rates alerts based on premium, volume, patterns
+- 📊 **Pattern Detection** - Identifies sweep clusters and repeat buyers
+- 💰 **Premium Analysis** - Auto-calculates significance
+- 🎨 **Rich Discord Embeds** - Color-coded by direction (green/red/yellow)
+- 📈 **Flow Stats** - Daily statistics and top signals
+
+## Signal Strength Formula
+
+```
+Base Score: 5
++ Premium Size (>$2M = +3, >$1M = +2, >$500K = +1)
++ Volume vs Avg (>10x = +2, >5x = +1)
++ Cluster Pattern (+1)
++ Near Expiry <7 DTE (+1)
+= Final Score (1-10)
+```
+
+**Signal Levels:**
+- 🔥 **8-10**: STRONG - Consider immediate action
+- 📈 **5-7**: MODERATE - Worth watching
+- 💡 **1-4**: WEAK - Informational only
+
 ## Alert Types Tracked
 
 - **Sweep Trades** - Multi-exchange orders
 - **Block Trades** - Large institutional orders  
 - **Unusual Options Activity** - High volume trades
-- **Flow Alerts** - Real-time trade notifications
+- **Flow Clusters** - Multiple sweeps on same ticker (NEW v2)
+- **Whale Alerts** - Premium >$1M (always sent)
 
 ## Configuration
 

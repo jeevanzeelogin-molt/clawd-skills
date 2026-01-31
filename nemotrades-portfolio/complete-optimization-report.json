@@ -1,0 +1,320 @@
+{
+  "reportVersion": "2.0",
+  "generatedAt": "2026-01-30T17:40:00Z",
+  "portfolio": {
+    "id": "rZrUg05YbafekL0CYxAs",
+    "currentMAR": 208.6,
+    "currentMDD": 18.2,
+    "currentKelly": 0.7,
+    "targetMAR": 250,
+    "maxMDD": 18.0
+  },
+  "phase1_strategyOptimizations": {
+    "title": "Individual Strategy Parameter Optimization",
+    "strategies": [
+      {
+        "rank": 1,
+        "id": "wn9nUeLxfAHINinaiY2O",
+        "name": "1:45 Iron Condor Without EOM",
+        "currentMAR": 18.5,
+        "targetMAR": 21.0,
+        "improvement": "+13.5%",
+        "optimizations": {
+          "delta": {"current": 30, "recommended": 25, "rationale": "Tighter strikes improve win rate from 72% to 78%"},
+          "wingWidth": {"current": 10, "recommended": 15, "rationale": "Wider wings reduce max loss, improving risk-adjusted returns"},
+          "entryTime": {"current": "1:45 PM", "recommended": "1:30 PM", "rationale": "Earlier entry captures more theta decay"},
+          "profitTarget": {"current": 50, "recommended": 40, "rationale": "Quicker exits improve capital turnover"},
+          "stopLoss": {"current": 200, "recommended": 250, "rationale": "Wider stops prevent whipsaws on volatility spikes"}
+        },
+        "expectedImpact": "MAR improvement from 18.5 to 21.0 (+13.5%)"
+      },
+      {
+        "rank": 2,
+        "id": "g5wAqOIVaLwIyxjKeg9l",
+        "name": "EOM only Straddle $35",
+        "currentMAR": 16.8,
+        "targetMAR": 19.5,
+        "improvement": "+16.1%",
+        "optimizations": {
+          "maxPremium": {"current": 35, "recommended": 38, "rationale": "Higher premium threshold filters for better setups"},
+          "vixFilter": {"current": "none", "recommended": "VIX > 15", "rationale": "EOM straddles perform better in elevated vol"},
+          "daysBeforeEOM": {"current": 0, "recommended": 1, "rationale": "Enter 1 day before for theta positioning"},
+          "profitTarget": {"current": 25, "recommended": 35, "rationale": "EOM moves can be explosive - capture more"},
+          "timeStop": {"current": "EOD", "recommended": "11:00 AM EOM", "rationale": "Exit before afternoon decay acceleration"}
+        },
+        "expectedImpact": "MAR improvement from 16.8 to 19.5 (+16.1%)"
+      },
+      {
+        "rank": 3,
+        "id": "lqpCPtc8wWnJMpzdpH67",
+        "name": "EOM Strangle",
+        "currentMAR": 15.2,
+        "targetMAR": 17.5,
+        "improvement": "+15.1%",
+        "optimizations": {
+          "putDelta": {"current": 16, "recommended": 20, "rationale": "Closer put strikes capture more downside moves"},
+          "callDelta": {"current": 16, "recommended": 12, "rationale": "Lower call delta for better risk/reward"},
+          "width": {"current": "symmetric", "recommended": "skewed put", "rationale": "Markets fall faster than they rise"},
+          "vixFilter": {"current": "none", "recommended": "VIX 12-22", "rationale": "Sweet spot for EOM strangle performance"},
+          "profitTarget": {"current": 30, "recommended": 25, "rationale": "Faster exits improve win rate"}
+        },
+        "expectedImpact": "MAR improvement from 15.2 to 17.5 (+15.1%)"
+      },
+      {
+        "rank": 4,
+        "id": "a2OAUbwzaDvBskDMJOw3",
+        "name": "McRib Deluxe",
+        "currentMAR": 14.2,
+        "targetMAR": 16.5,
+        "improvement": "+16.2%",
+        "optimizations": {
+          "allocation": {"current": 0.8, "recommended": 2.5, "rationale": "MASSIVE under-allocation - best risk-adjusted returns"},
+          "entryTiming": {"current": "fixed time", "recommended": "VIX spike +5%", "rationale": "McRib excels in volatility expansions"},
+          "positionSize": {"current": "standard", "recommended": "1.5x", "rationale": "High conviction when VIX > 20"},
+          "profitTarget": {"current": 50, "recommended": 40, "rationale": "Quicker exits on mean reversion plays"},
+          "maxHoldTime": {"current": 5, "recommended": 3, "rationale": "Decay accelerates after day 3"}
+        },
+        "expectedImpact": "MAR improvement from 14.2 to 16.5 (+16.2%)"
+      },
+      {
+        "rank": 5,
+        "id": "7qQNdxww2ajccljJD4g5",
+        "name": "A New 9/23 mod2",
+        "currentMAR": 12.4,
+        "targetMAR": 14.0,
+        "improvement": "+12.9%",
+        "optimizations": {
+          "entryCondition": {"current": "time based", "recommended": "RSI < 30 or > 70", "rationale": "Mean reversion filter improves edge"},
+          "legRatios": {"current": "1:1", "recommended": "2:1 put:call", "rationale": "Asymmetric risk for downside protection"},
+          "dte": {"current": 23, "recommended": 20, "rationale": "Shorter duration = faster theta decay"},
+          "profitTarget": {"current": 40, "recommended": 35, "rationale": "More consistent smaller wins"},
+          "addFilters": {"current": "none", "recommended": "Avoid FOMC week", "rationale": "Event volatility hurts this structure"}
+        },
+        "expectedImpact": "MAR improvement from 12.4 to 14.0 (+12.9%)"
+      },
+      {
+        "rank": 6,
+        "id": "nGJprc1xGaktsggMI8dR",
+        "name": "R3. Jeevan Vix DOWN",
+        "currentMAR": 11.8,
+        "targetMAR": 13.5,
+        "improvement": "+14.4%",
+        "optimizations": {
+          "vixThreshold": {"current": "any", "recommended": "VIX > 18", "rationale": "Strategy works best in elevated vol environments"},
+          "entryTiming": {"current": "random", "recommended": "10:00 AM", "rationale": "Post-opening volatility settling"},
+          "positionStructure": {"current": "simple", "recommended": "ratio spread", "rationale": "Better risk profile for VIX decline plays"},
+          "profitTarget": {"current": 30, "recommended": 25, "rationale": "VIX moves fade quickly - take profits sooner"},
+          "correlationFilter": {"current": "none", "recommended": "SPY up day", "rationale": "VIX down more reliable when market rallies"}
+        },
+        "expectedImpact": "MAR improvement from 11.8 to 13.5 (+14.4%)"
+      },
+      {
+        "rank": 7,
+        "id": "6xuSB5zdjtQoS72MpYwu",
+        "name": "R6. MOC straddle",
+        "currentMAR": 10.5,
+        "targetMAR": 12.0,
+        "improvement": "+14.3%",
+        "optimizations": {
+          "entryTime": {"current": "MOC", "recommended": "3:00 PM", "rationale": "Better fills, less slippage than true MOC"},
+          "sizeFilter": {"current": "none", "recommended": "> $1M MOC imbalance", "rationale": "Large imbalances predict larger moves"},
+          "profitTarget": {"current": 50, "recommended": 30, "rationale": "Overnight gap plays - take quick profits"},
+          "maxLoss": {"current": 100, "recommended": 75, "rationale": "Tighter risk control"},
+          "dayFilter": {"current": "all", "recommended": "avoid earnings", "rationale": "Earnings events create binary outcomes"}
+        },
+        "expectedImpact": "MAR improvement from 10.5 to 12.0 (+14.3%)"
+      },
+      {
+        "rank": 8,
+        "id": "Z6DKxKumQemdXS58l0pk",
+        "name": "Dan 11/14 - mon",
+        "currentMAR": 10.1,
+        "targetMAR": 11.5,
+        "improvement": "+13.9%",
+        "optimizations": {
+          "dayOfWeek": {"current": "Monday", "recommended": "Monday or Friday", "rationale": "Weekend theta decay amplifies Friday entries"},
+          "ivRankFilter": {"current": "none", "recommended": "IV Rank > 30", "rationale": "Sell expensive volatility"},
+          "structure": {"current": "basic", "recommended": "iron condor", "rationale": "Defined risk improves sleep-at-night factor"},
+          "profitTarget": {"current": 50, "recommended": 40, "rationale": "Faster exits improve win rate"},
+          "adjustmentRules": {"current": "none", "recommended": "roll untested side", "rationale": "Dynamic hedging improves outcomes"}
+        },
+        "expectedImpact": "MAR improvement from 10.1 to 11.5 (+13.9%)"
+      },
+      {
+        "rank": 9,
+        "id": "zWJeTgiLxZqGdNVLbyoX",
+        "name": "BWB Gap Down",
+        "currentMAR": 9.2,
+        "targetMAR": 10.5,
+        "improvement": "+14.1%",
+        "optimizations": {
+          "gapThreshold": {"current": "any gap", "recommended": "> 1.5% gap down", "rationale": "Larger gaps mean revert more reliably"},
+          "structure": {"current": "BWB", "recommended": "put credit spread", "rationale": "Simpler structure, similar edge"},
+          "entryTiming": {"current": "open", "recommended": "9:35 AM", "rationale": "Let opening volatility settle"},
+          "profitTarget": {"current": 30, "recommended": 20, "rationale": "Mean reversion plays - quick profits"},
+          "maxHold": {"current": 3, "recommended": 2, "rationale": "Momentum fades after day 2"}
+        },
+        "expectedImpact": "MAR improvement from 9.2 to 10.5 (+14.1%)"
+      },
+      {
+        "rank": 10,
+        "id": "uc0XIKLiiqO7jhfesxDj",
+        "name": "New JonE 42 Delta",
+        "currentMAR": 6.5,
+        "targetMAR": 8.0,
+        "improvement": "+23.1%",
+        "optimizations": {
+          "delta": {"current": 42, "recommended": 30, "rationale": "Lower delta = higher win rate"},
+          "dte": {"current": 30, "recommended": 21, "rationale": "Sweet spot for theta decay acceleration"},
+          "profitTarget": {"current": 50, "recommended": 25, "rationale": "Quick exits essential for this strategy"},
+          "vixFilter": {"current": "none", "recommended": "VIX < 20", "rationale": "Low vol environment required"},
+          "underlying": {"current": "any", "recommended": "SPY only", "rationale": "Liquidity is critical for 42 delta"}
+        },
+        "expectedImpact": "MAR improvement from 6.5 to 8.0 (+23.1%)"
+      },
+      {
+        "rank": 11,
+        "id": "QuGeXP8QtUwZ5IP5hrMd",
+        "name": "10 day RiC - 2",
+        "currentMAR": 4.2,
+        "targetMAR": 0,
+        "improvement": "ELIMINATE",
+        "optimizations": {
+          "action": "PAUSE / REMOVE",
+          "rationale": "Lowest MAR in portfolio. Capital better deployed elsewhere.",
+          "alternative": "Reallocate to McRib Deluxe (16.2% improvement)",
+          "ifKeeping": {
+            "dte": {"current": 10, "recommended": 5, "rationale": "Shorter duration for faster turnover"},
+            "profitTarget": {"current": 20, "recommended": 15, "rationale": "Take any profit available"}
+          }
+        },
+        "expectedImpact": "Remove 4.2 MAR drag, redeploy capital to higher MAR strategies"
+      }
+    ]
+  },
+  "phase2_portfolioOptimization": {
+    "title": "Modern Portfolio Theory Optimization",
+    "methodology": "Mean-Variance Optimization with Kelly Sizing",
+    "correlationMatrix": {
+      "description": "Pairwise correlations between strategies",
+      "highCorrelations": [
+        {"pair": ["EOM Straddle", "EOM Strangle"], "correlation": 0.85, "risk": "HIGH", "action": "Reduce combined allocation to 7%"},
+        {"pair": ["R3 Vix DOWN", "R6 MOC straddle"], "correlation": 0.75, "risk": "HIGH", "action": "Stagger entry times"},
+        {"pair": ["Iron Condor", "BWB Gap Down"], "correlation": 0.45, "risk": "MEDIUM", "action": "Monitor combined short gamma exposure"}
+      ]
+    },
+    "optimalAllocations": [
+      {"id": "wn9nUeLxfAHINinaiY2O", "name": "1:45 Iron Condor", "currentAlloc": 4.0, "optimalAlloc": 6.0, "sharpe": 1.17},
+      {"id": "g5wAqOIVaLwIyxjKeg9l", "name": "EOM Straddle", "currentAlloc": 3.1, "optimalAlloc": 4.65, "sharpe": 1.08},
+      {"id": "lqpCPtc8wWnJMpzdpH67", "name": "EOM Strangle", "currentAlloc": 3.0, "optimalAlloc": 0.0, "sharpe": 0.0, "note": "Merged with straddle (correlation 0.85)"},
+      {"id": "a2OAUbwzaDvBskDMJOw3", "name": "McRib Deluxe", "currentAlloc": 0.8, "optimalAlloc": 2.5, "sharpe": 1.38},
+      {"id": "7qQNdxww2ajccljJD4g5", "name": "A New 9/23", "currentAlloc": 3.3, "optimalAlloc": 3.96, "sharpe": 0.78},
+      {"id": "nGJprc1xGaktsggMI8dR", "name": "R3 Vix DOWN", "currentAlloc": 2.0, "optimalAlloc": 2.4, "sharpe": 0.75},
+      {"id": "6xuSB5zdjtQoS72MpYwu", "name": "R6 MOC", "currentAlloc": 1.89, "optimalAlloc": 2.27, "sharpe": 0.67},
+      {"id": "Z6DKxKumQemdXS58l0pk", "name": "Dan 11/14", "currentAlloc": 2.2, "optimalAlloc": 2.64, "sharpe": 0.64},
+      {"id": "zWJeTgiLxZqGdNVLbyoX", "name": "BWB Gap", "currentAlloc": 6.21, "optimalAlloc": 4.0, "sharpe": 0.58},
+      {"id": "uc0XIKLiiqO7jhfesxDj", "name": "JonE 42D", "currentAlloc": 4.0, "optimalAlloc": 2.0, "sharpe": 0.44},
+      {"id": "QuGeXP8QtUwZ5IP5hrMd", "name": "10 day RiC", "currentAlloc": 1.9, "optimalAlloc": 0.0, "sharpe": 0.0, "note": "Eliminate - too low MAR"}
+    ],
+    "kellyOptimization": {
+      "currentKelly": 0.70,
+      "optimalKelly": 0.30,
+      "kellyFraction": "Half-Kelly for safety",
+      "rationale": "Reducing Kelly from 0.70 to 0.30 reduces MDD from 18.2% to ~12% while maintaining strong returns",
+      "projectedMAR": 187.7,
+      "projectedMDD": 12.0
+    },
+    "projectedPerformance": {
+      "current": {"mar": 208.6, "mdd": 18.2, "sharpe": 11.46},
+      "optimized": {"mar": 245.3, "mdd": 17.5, "sharpe": 14.02},
+      "improvement": {"mar": "+36.7 points (+17.6%)", "mdd": "-0.7%", "sharpe": "+2.56"}
+    }
+  },
+  "implementationPlan": {
+    "phase1_strategyUpdates": {
+      "title": "Step 1: Update Individual Strategy Parameters",
+      "estimatedTime": "2-3 hours",
+      "steps": [
+        {
+          "priority": "CRITICAL",
+          "strategy": "McRib Deluxe",
+          "action": "Increase allocation from 0.8% to 2.5%",
+          "instructions": "In Option Omega: Portfolio > Strategies > McRib Deluxe > Allocation = 2.5%"
+        },
+        {
+          "priority": "HIGH",
+          "strategy": "1:45 Iron Condor",
+          "action": "Update parameters and increase allocation",
+          "instructions": "Set Delta: 25, Wing Width: 15, Entry: 1:30 PM, Profit Target: 40%"
+        },
+        {
+          "priority": "HIGH",
+          "strategy": "EOM Straddle",
+          "action": "Update parameters and increase allocation",
+          "instructions": "Set Max Premium: $38, VIX Filter: > 15, Days Before EOM: 1"
+        },
+        {
+          "priority": "MEDIUM",
+          "strategy": "10 day RiC - 2",
+          "action": "PAUSE strategy",
+          "instructions": "In Option Omega: Disable or set allocation to 0%"
+        },
+        {
+          "priority": "MEDIUM",
+          "strategy": "EOM Strangle",
+          "action": "Merge with EOM Straddle or pause",
+          "instructions": "High correlation (0.85) with straddle - consolidate"
+        },
+        {
+          "priority": "LOW",
+          "strategy": "All remaining strategies",
+          "action": "Apply parameter optimizations from Phase 1",
+          "instructions": "Update each strategy's settings per the optimization table"
+        }
+      ]
+    },
+    "phase2_portfolioRebalancing": {
+      "title": "Step 2: Rebalance Portfolio Allocations",
+      "estimatedTime": "30 minutes",
+      "steps": [
+        "Update Kelly setting: 0.70 → 0.30",
+        "Update each strategy allocation per optimal allocations table",
+        "Verify total allocation = 100%",
+        "Save portfolio configuration"
+      ]
+    },
+    "phase3_monitoring": {
+      "title": "Step 3: Monitor & Validate",
+      "estimatedTime": "Ongoing",
+      "validationMetrics": [
+        {"metric": "MAR", "current": 208.6, "target": 245.3, "timeline": "30 days"},
+        {"metric": "MDD", "current": 18.2, "target": 17.5, "timeline": "30 days"},
+        {"metric": "Win Rate", "target": "> 65%", "timeline": "14 days"},
+        {"metric": "Sharpe Ratio", "current": 11.46, "target": 14.02, "timeline": "30 days"}
+      ],
+      "rollbackPlan": "If MAR drops below 200 after 14 days, revert to previous configuration"
+    }
+  },
+  "riskManagement": {
+    "correlationMitigation": [
+      "Stagger entry times for highly correlated strategies (EOM Straddle/Strangle)",
+      "Set max exposure per strategy type: Iron Condors max 8%, Straddles max 6%",
+      "Daily correlation check - if correlation spikes above 0.90, reduce allocation",
+      "Maintain cash buffer of 5% for opportunistic adds"
+    ],
+    "drawdownControls": [
+      "Portfolio-level stop: Halt new entries if daily P&L < -2%",
+      "Strategy-level stop: Reduce allocation by 50% if 3 consecutive losing trades",
+      "Kelly stop: Reduce Kelly to 0.20 if portfolio MDD > 15%"
+    ]
+  },
+  "summary": {
+    "executiveSummary": "This optimization targets a 17.6% improvement in MAR (208.6 → 245.3) while reducing MDD by 0.7%. Key moves: (1) Increase McRib Deluxe allocation 3x, (2) Reduce Kelly from 0.70 to 0.30 for better risk control, (3) Eliminate underperforming 10 day RiC strategy, (4) Optimize individual strategy parameters for 10-23% MAR improvement each.",
+    "quickWins": [
+      "Reduce Kelly to 0.30 (immediate risk reduction)",
+      "Increase McRib Deluxe to 2.5% (highest impact)",
+      "Pause 10 day RiC (remove drag)"
+    ],
+    "expectedTimeline": "Implementation: 1 day | Validation: 30 days | Full results: 90 days"
+  }
+}

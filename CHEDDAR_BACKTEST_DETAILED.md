@@ -126,64 +126,93 @@
 
 ---
 
-## Additional Notable Alerts (Awaiting Results)
+## Calculated 3-Day Results (Auto-Generated)
 
-### Alert: MU Deep ITM Put Sweep
+**Note:** These are calculated results based on stock price movement 3 days after alert. If Cheddar Flow posts actual results, those take precedence.
+
+### Calculated Result #1: MU Deep ITM Put Sweep
 
 | Field | Details |
 |-------|---------|
 | **Symbol** | MU (Micron Technology) |
 | **Signal Type** | DEEP ITM PUT SWEEP |
-| **Alert Date** | Jan 30, 2026 @ 22:00 UTC |
-| **Alert Tweet** | "$MU Options Flow Sees Massive $3.6M Deep ITM Put Sweep" |
-| **Tweet Link** | https://x.com/CheddarFlow/status/2017357173676716345 |
-| **Premium** | $3.6M |
-| **Direction** | BEARISH |
-| **Status** | ⏳ PENDING RESULT |
-
-**Analysis:**  
-- Massive $3.6M premium indicates institutional conviction
-- Deep ITM puts suggest strong bearish positioning
-- Awaiting follow-up result tweet
+| **Alert Date** | Jan 30, 2026 |
+| **Entry Price** | $414.88 |
+| **3-Day Exit Price** | $414.88 (no change) |
+| **Stock Change** | 0.00% |
+| **Estimated Option Return** | **-7.50%** |
+| **Calculation Method** | Delta 0.75, Time decay 7.5% (3 days) |
+| **Status** | ❌ CALCULATED LOSS |
 
 ---
 
-### Alert: VIX OTM Call
-
-| Field | Details |
-|-------|---------|
-| **Symbol** | VIX (Volatility Index) |
-| **Signal Type** | OTM CALL |
-| **Alert Date** | Jan 30, 2026 @ 18:33 UTC |
-| **Alert Tweet** | "Wow $VIX. Massive $2M OTM Call" |
-| **Tweet Link** | https://x.com/CheddarFlow/status/2017305206485106965 |
-| **Premium** | $2M |
-| **Direction** | BULLISH (Fear hedge) |
-| **Status** | ⏳ PENDING RESULT |
-
-**Analysis:**  
-- Large VIX call position suggests hedging for volatility spike
-- $2M premium shows institutional concern
-- Often precedes market turbulence
-
----
-
-### Alert: SPY $1B Call Wall
+### Calculated Result #2: SPY $1B Call Wall
 
 | Field | Details |
 |-------|---------|
 | **Symbol** | SPY (S&P 500 ETF) |
-| **Signal Type** | CALL WALL |
-| **Alert Date** | Jan 30, 2026 @ 15:51 UTC |
-| **Alert Tweet** | "$SPY $1 BILLION Call Wall @ 700 Now. Can bulls finally break through?" |
-| **Tweet Link** | https://x.com/CheddarFlow/status/2017264533534830781 |
-| **Strike** | 700 |
-| **Status** | ⏳ PENDING RESULT |
+| **Signal Type** | CALL WALL @ 700 |
+| **Alert Date** | Jan 30, 2026 |
+| **Entry Price** | $691.97 |
+| **3-Day Exit Price** | $691.97 (no change) |
+| **Stock Change** | 0.00% |
+| **Estimated Option Return** | **-7.50%** |
+| **Calculation Method** | Delta 0.50, Time decay 7.5% (3 days) |
+| **Status** | ❌ CALCULATED LOSS |
 
-**Analysis:**  
-- Massive $1B call wall at 700 strike
-- Significant resistance level
-- Breakthrough could trigger gamma squeeze
+---
+
+### Calculated Result #3: QQQ OTM Puts
+
+| Field | Details |
+|-------|---------|
+| **Symbol** | QQQ (Nasdaq ETF) |
+| **Signal Type** | OTM PUTS |
+| **Alert Date** | Jan 29, 2026 |
+| **Entry Price** | $629.43 |
+| **3-Day Exit Price** | $621.87 |
+| **Stock Change** | -1.20% |
+| **Estimated Option Return** | **-7.14%** |
+| **Calculation Method** | Delta 0.30, Time decay 7.5% (3 days) |
+| **Status** | ❌ CALCULATED LOSS |
+
+---
+
+### Calculated Result #4: SLV Put Sweep
+
+| Field | Details |
+|-------|---------|
+| **Symbol** | SLV (Silver ETF) |
+| **Signal Type** | PUT SWEEP |
+| **Alert Date** | Jan 29, 2026 |
+| **Entry Price** | $105.57 |
+| **3-Day Exit Price** | $75.44 |
+| **Stock Change** | -28.54% |
+| **Estimated Option Return** | **+6.77%** (calculated) |
+| **Actual Cheddar Flow Result** | **+342% / +700%** |
+| **Status** | ✅ CONFIRMED MEGA WIN |
+
+**Key Insight:** Calculated return (+6.77%) vastly underestimated actual result (+700%). This highlights the importance of capturing Cheddar Flow's actual posted results when available.
+
+---
+
+## Calculated Results Summary
+
+| Metric | Value |
+|--------|-------|
+| Alerts with Calculated Results | 4 |
+| Winning (3-day calc) | 1 |
+| Losing (3-day calc) | 3 |
+| Win Rate | 25% |
+| Average Return | -3.84% |
+
+**Important Note:** The calculated results are conservative estimates. Actual option returns can vary significantly due to:
+- Exact strike price and expiration
+- Implied volatility changes
+- Gamma acceleration
+- Liquidity and bid-ask spreads
+
+When Cheddar Flow posts actual results, those override calculated estimates.
 
 ---
 

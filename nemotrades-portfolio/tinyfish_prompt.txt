@@ -1,0 +1,73 @@
+# TinyFish Prompt for Option Omega Portfolio Optimization
+
+## Goal
+Create optimized portfolio "Nemo_Optimized_2026" on Option Omega that beats baseline MAR of 209.4
+
+## Baseline
+- Portfolio: "All strats Rebal 70 kelly - v4"
+- MAR: 209.4
+- MDD: -18.1%
+- Starting Capital: $160,000
+- Dates: 05/16/2022 to 01/29/2026
+
+## Steps to Execute
+
+1. Navigate to https://optionomega.com/portfolio/rZrUg05YbafekL0CYxAs
+2. Click "New Portfolio" button
+3. Set parameters:
+   - Starting Funds: $160,000
+   - Start Date: 05/16/2022
+   - End Date: 01/29/2026
+4. Select strategies and set allocations:
+
+## Strategy Allocations
+
+### HIGH PRIORITY (Increase)
+- McRib Deluxe: 3.0% (from 0.8%) - MASSIVE INCREASE
+- Overnight Diagonal: 12.0% (from 10.0%) - INCREASE
+- EOM Straddle $35 limit: 5.0% (from 3.1%) - INCREASE
+- 1:45 Iron Condor Without EOM: 6.0% (from 4.0%) - INCREASE
+- R3. Jeevan Vix DOWN Straddle: 3.0% (from 2.0%) - INCREASE
+- Ric Intraday swan net: 2.0% (from 1.2%) - INCREASE
+
+### MEDIUM (Slight Adjustments)
+- BWB Gap Down - Max 3 Open: 6.0% (from 6.21%) - slight reduce
+- A New 9/23 mod2: 2.5% (from 3.3%) - reduce
+- Dan 11/14 - mon: 2.0% (from 2.2%) - slight reduce
+- R6. MOC straddle/EOD last 12 min: 2.0% (from 1.89%) - slight increase
+- ORB Breakout BF 30/30/30: 1.0% (keep same)
+- fri 6/7: 1.5% (from 1.4%) - slight increase
+- monday 2/4 dc: 1.0% (from 1.6%) - reduce
+- move down 0 dte ic - less risk: 2.0% (from 3.0%) - reduce
+
+### SLASH (Underperformers)
+- New JonE 42 Delta - 1 con: 1.5% (from 4.0%) - SLASH
+- VIX UP 9:35 Iron Condor: 0.5% (from 0.6%) - slight reduce
+- put with cs: 0.5% (from 1.2%) - reduce
+
+### ELIMINATE (0%)
+- 10 day RiC - 2: 0% (ELIMINATE - low MAR)
+- R2. EOM 3:45pm Strangle 2.0: 0% (ELIMINATE - merge into EOM Straddle)
+
+5. Click "Run" button
+6. Wait for backtest to complete (60-120 seconds)
+7. Extract results:
+   - MAR Ratio
+   - Max Drawdown
+   - CAGR
+   - P/L
+
+8. IF MAR > 209.4 AND MDD ≤ 18.1%:
+   - Save portfolio
+   - Name: "Nemo_Optimized_2026"
+   - Screenshot results
+
+## Expected Results
+- Target MAR: 245-255 (up from 209.4) = +17-22%
+- MDD should stay ≤ 18.1%
+- Tail risk improved by eliminating low-MAR strategies
+
+## Success Criteria
+✅ MAR > 209.4
+✅ MDD ≤ 18.1%
+✅ Portfolio named "Nemo_Optimized_2026"
