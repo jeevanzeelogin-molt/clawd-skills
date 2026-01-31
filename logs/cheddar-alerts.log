@@ -1,0 +1,1823 @@
+[2026-01-29 22:13:33] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:13:33] Using browser automation to check tweets...
+[2026-01-29 22:15:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:15:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:15:36] Playwright not available - using mock data for testing
+[2026-01-29 22:15:36] Playwright not available - using mock data for testing
+[2026-01-29 22:15:36] Checking mock trade data...
+[2026-01-29 22:15:36] Checking mock trade data...
+[2026-01-29 22:15:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:15:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** SPY\n**Strike:** 450 CALL\n**Expiry:** 2026-02-07\n**Type:** sweep\n**Premium:** $250000\n\n⏰ 22:15:37
+[2026-01-29 22:15:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:15:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** AAPL\n**Strike:** 185 PUT\n**Expiry:** 2026-02-14\n**Type:** block\n**Premium:** $150000\n\n⏰ 22:15:37
+[2026-01-29 22:15:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:15:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** TSLA\n**Strike:** 220 CALL\n**Expiry:** 2026-02-07\n**Type:** sweep\n**Premium:** $500000\n\n⏰ 22:15:37
+[2026-01-29 22:15:37] Check complete
+[2026-01-29 22:15:37] Check complete
+[2026-01-29 22:20:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:20:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:20:37] Playwright not available - using mock data for testing
+[2026-01-29 22:20:37] Playwright not available - using mock data for testing
+[2026-01-29 22:20:37] Checking mock trade data...
+[2026-01-29 22:20:37] Checking mock trade data...
+[2026-01-29 22:20:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:20:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** SPY\n**Strike:** 450 CALL\n**Expiry:** 2026-02-07\n**Type:** sweep\n**Premium:** $250000\n\n⏰ 22:20:37
+[2026-01-29 22:20:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:20:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** AAPL\n**Strike:** 185 PUT\n**Expiry:** 2026-02-14\n**Type:** block\n**Premium:** $150000\n\n⏰ 22:20:37
+[2026-01-29 22:20:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:20:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+Would send: 🧀 **Cheddar Flow Alert**\n\n**Symbol:** TSLA\n**Strike:** 220 CALL\n**Expiry:** 2026-02-07\n**Type:** sweep\n**Premium:** $500000\n\n⏰ 22:20:37
+[2026-01-29 22:20:37] Check complete
+[2026-01-29 22:20:37] Check complete
+[2026-01-29 22:25:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:25:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:25:37] Playwright not available - using mock data for testing
+[2026-01-29 22:25:37] Playwright not available - using mock data for testing
+[2026-01-29 22:25:37] Checking mock trade data...
+[2026-01-29 22:25:37] Checking mock trade data...
+[2026-01-29 22:25:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:25:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:25:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:25:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:25:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:25:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:25:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:25:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Queued alert for Discord DM
+[2026-01-29 22:25:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:25:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:25:37] Check complete
+[2026-01-29 22:25:37] Check complete
+[2026-01-29 22:30:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:30:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:30:37] Playwright not available - using mock data for testing
+[2026-01-29 22:30:37] Playwright not available - using mock data for testing
+[2026-01-29 22:30:37] Checking mock trade data...
+[2026-01-29 22:30:37] Checking mock trade data...
+[2026-01-29 22:30:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:30:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:30:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:30:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:30:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:30:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:30:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:30:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Queued alert for Discord DM
+[2026-01-29 22:30:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:30:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:30:37] Check complete
+[2026-01-29 22:30:37] Check complete
+[2026-01-29 22:35:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:35:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:35:37] Playwright not available - using mock data for testing
+[2026-01-29 22:35:37] Playwright not available - using mock data for testing
+[2026-01-29 22:35:37] Checking mock trade data...
+[2026-01-29 22:35:37] Checking mock trade data...
+[2026-01-29 22:35:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:35:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:35:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:35:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:35:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:35:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:35:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:35:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Queued alert for Discord DM
+[2026-01-29 22:35:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:35:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:35:37] Check complete
+[2026-01-29 22:35:37] Check complete
+[2026-01-29 22:40:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:40:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:40:37] Playwright not available - using mock data for testing
+[2026-01-29 22:40:37] Playwright not available - using mock data for testing
+[2026-01-29 22:40:37] Checking mock trade data...
+[2026-01-29 22:40:37] Checking mock trade data...
+[2026-01-29 22:40:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:40:37] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:40:37] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:40:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:40:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:40:37] Alert ready to send: AAPL block $150000
+[2026-01-29 22:40:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:40:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Queued alert for Discord DM
+[2026-01-29 22:40:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:40:37] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:40:37] Check complete
+[2026-01-29 22:40:37] Check complete
+[2026-01-29 22:45:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:45:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-29 22:45:37] Playwright not available - using mock data for testing
+[2026-01-29 22:45:37] Playwright not available - using mock data for testing
+[2026-01-29 22:45:37] Checking mock trade data...
+[2026-01-29 22:45:37] Checking mock trade data...
+[2026-01-29 22:45:38] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:45:38] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:45:38] Alert ready to send: SPY sweep $250000
+[2026-01-29 22:45:38] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:45:38] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Alert ready to send: AAPL block $150000
+[2026-01-29 22:45:38] Alert ready to send: AAPL block $150000
+[2026-01-29 22:45:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:45:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Queued alert for Discord DM
+[2026-01-29 22:45:38] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:45:38] Alert ready to send: TSLA sweep $500000
+[2026-01-29 22:45:38] Check complete
+[2026-01-29 22:45:38] Check complete
+[2026-01-30 00:21:25] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 00:21:25] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 00:21:25] Playwright not available - using mock data for testing
+[2026-01-30 00:21:25] Playwright not available - using mock data for testing
+[2026-01-30 00:21:25] Checking mock trade data...
+[2026-01-30 00:21:25] Checking mock trade data...
+[2026-01-30 00:21:26] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 00:21:26] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Alert ready to send: SPY sweep $250000
+[2026-01-30 00:21:26] Alert ready to send: SPY sweep $250000
+[2026-01-30 00:21:26] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 00:21:26] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Alert ready to send: AAPL block $150000
+[2026-01-30 00:21:26] Alert ready to send: AAPL block $150000
+[2026-01-30 00:21:26] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 00:21:26] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Queued alert for Discord DM
+[2026-01-30 00:21:26] Alert ready to send: TSLA sweep $500000
+[2026-01-30 00:21:26] Alert ready to send: TSLA sweep $500000
+[2026-01-30 00:21:26] Check complete
+[2026-01-30 00:21:26] Check complete
+[2026-01-30 02:52:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 02:52:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 02:52:50] Playwright not available - using mock data for testing
+[2026-01-30 02:52:50] Playwright not available - using mock data for testing
+[2026-01-30 02:52:50] Checking mock trade data...
+[2026-01-30 02:52:50] Checking mock trade data...
+[2026-01-30 02:52:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 02:52:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Alert ready to send: SPY sweep $250000
+[2026-01-30 02:52:50] Alert ready to send: SPY sweep $250000
+[2026-01-30 02:52:50] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 02:52:50] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Alert ready to send: AAPL block $150000
+[2026-01-30 02:52:50] Alert ready to send: AAPL block $150000
+[2026-01-30 02:52:50] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 02:52:50] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Queued alert for Discord DM
+[2026-01-30 02:52:50] Alert ready to send: TSLA sweep $500000
+[2026-01-30 02:52:50] Alert ready to send: TSLA sweep $500000
+[2026-01-30 02:52:50] Check complete
+[2026-01-30 02:52:50] Check complete
+[2026-01-30 06:51:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 06:51:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 06:51:02] Playwright not available - using mock data for testing
+[2026-01-30 06:51:02] Playwright not available - using mock data for testing
+[2026-01-30 06:51:02] Checking mock trade data...
+[2026-01-30 06:51:02] Checking mock trade data...
+[2026-01-30 06:51:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 06:51:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 06:51:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 06:51:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 06:51:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Alert ready to send: AAPL block $150000
+[2026-01-30 06:51:02] Alert ready to send: AAPL block $150000
+[2026-01-30 06:51:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 06:51:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Queued alert for Discord DM
+[2026-01-30 06:51:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 06:51:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 06:51:02] Check complete
+[2026-01-30 06:51:02] Check complete
+[2026-01-30 06:56:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 06:56:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 06:56:02] Playwright not available - using mock data for testing
+[2026-01-30 06:56:02] Playwright not available - using mock data for testing
+[2026-01-30 06:56:02] Checking mock trade data...
+[2026-01-30 06:56:02] Checking mock trade data...
+[2026-01-30 06:56:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 06:56:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 06:56:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 06:56:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 06:56:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Alert ready to send: AAPL block $150000
+[2026-01-30 06:56:02] Alert ready to send: AAPL block $150000
+[2026-01-30 06:56:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 06:56:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Queued alert for Discord DM
+[2026-01-30 06:56:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 06:56:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 06:56:02] Check complete
+[2026-01-30 06:56:02] Check complete
+[2026-01-30 07:01:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:01:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:01:02] Playwright not available - using mock data for testing
+[2026-01-30 07:01:02] Playwright not available - using mock data for testing
+[2026-01-30 07:01:02] Checking mock trade data...
+[2026-01-30 07:01:02] Checking mock trade data...
+[2026-01-30 07:01:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:01:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:01:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:01:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:01:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Alert ready to send: AAPL block $150000
+[2026-01-30 07:01:02] Alert ready to send: AAPL block $150000
+[2026-01-30 07:01:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:01:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Queued alert for Discord DM
+[2026-01-30 07:01:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:01:02] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:01:02] Check complete
+[2026-01-30 07:01:02] Check complete
+[2026-01-30 07:06:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:06:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:06:02] Playwright not available - using mock data for testing
+[2026-01-30 07:06:02] Playwright not available - using mock data for testing
+[2026-01-30 07:06:02] Checking mock trade data...
+[2026-01-30 07:06:02] Checking mock trade data...
+[2026-01-30 07:06:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:06:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:06:02] Queued alert for Discord DM
+[2026-01-30 07:06:02] Queued alert for Discord DM
+[2026-01-30 07:06:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:06:02] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:06:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:06:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:06:03] Queued alert for Discord DM
+[2026-01-30 07:06:03] Queued alert for Discord DM
+[2026-01-30 07:06:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:06:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:06:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:06:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:06:03] Queued alert for Discord DM
+[2026-01-30 07:06:03] Queued alert for Discord DM
+[2026-01-30 07:06:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:06:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:06:03] Check complete
+[2026-01-30 07:06:03] Check complete
+[2026-01-30 07:11:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:11:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:11:03] Playwright not available - using mock data for testing
+[2026-01-30 07:11:03] Playwright not available - using mock data for testing
+[2026-01-30 07:11:03] Checking mock trade data...
+[2026-01-30 07:11:03] Checking mock trade data...
+[2026-01-30 07:11:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:11:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:11:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:11:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:11:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:11:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:11:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:11:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Queued alert for Discord DM
+[2026-01-30 07:11:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:11:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:11:03] Check complete
+[2026-01-30 07:11:03] Check complete
+[2026-01-30 07:16:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:16:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:16:03] Playwright not available - using mock data for testing
+[2026-01-30 07:16:03] Playwright not available - using mock data for testing
+[2026-01-30 07:16:03] Checking mock trade data...
+[2026-01-30 07:16:03] Checking mock trade data...
+[2026-01-30 07:16:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:16:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:16:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:16:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:16:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:16:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:16:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:16:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Queued alert for Discord DM
+[2026-01-30 07:16:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:16:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:16:03] Check complete
+[2026-01-30 07:16:03] Check complete
+[2026-01-30 07:21:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:21:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:21:03] Playwright not available - using mock data for testing
+[2026-01-30 07:21:03] Playwright not available - using mock data for testing
+[2026-01-30 07:21:03] Checking mock trade data...
+[2026-01-30 07:21:03] Checking mock trade data...
+[2026-01-30 07:21:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:21:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:21:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:21:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:21:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:21:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:21:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:21:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Queued alert for Discord DM
+[2026-01-30 07:21:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:21:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:21:03] Check complete
+[2026-01-30 07:21:03] Check complete
+[2026-01-30 07:24:37] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:24:37] Using browser automation to check tweets...
+[2026-01-30 07:24:40] No new tweets found or scraper failed
+[2026-01-30 07:24:40] Checking mock trade data...
+[2026-01-30 07:24:40] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:24:40] Queued alert for Discord DM
+[2026-01-30 07:24:40] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:24:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:24:40] Queued alert for Discord DM
+[2026-01-30 07:24:40] Alert ready to send: AAPL block $150000
+[2026-01-30 07:24:40] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:24:40] Queued alert for Discord DM
+[2026-01-30 07:24:40] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:24:40] Check complete
+[2026-01-30 07:26:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:26:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:26:03] Playwright not available - using mock data for testing
+[2026-01-30 07:26:03] Playwright not available - using mock data for testing
+[2026-01-30 07:26:03] Checking mock trade data...
+[2026-01-30 07:26:03] Checking mock trade data...
+[2026-01-30 07:26:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:26:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:26:03] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:26:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:26:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:26:03] Alert ready to send: AAPL block $150000
+[2026-01-30 07:26:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:26:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Queued alert for Discord DM
+[2026-01-30 07:26:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:26:03] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:26:03] Check complete
+[2026-01-30 07:26:03] Check complete
+[2026-01-30 07:29:58] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:29:58] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:29:58] Playwright not available - using mock data for testing
+[2026-01-30 07:29:58] Playwright not available - using mock data for testing
+[2026-01-30 07:29:58] Checking mock trade data...
+[2026-01-30 07:29:58] Checking mock trade data...
+[2026-01-30 07:29:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:29:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:29:59] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:29:59] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:29:59] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Alert ready to send: AAPL block $150000
+[2026-01-30 07:29:59] Alert ready to send: AAPL block $150000
+[2026-01-30 07:29:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:29:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Queued alert for Discord DM
+[2026-01-30 07:29:59] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:29:59] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:29:59] Check complete
+[2026-01-30 07:29:59] Check complete
+[2026-01-30 07:30:16] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:30:16] Using browser automation to check tweets...
+[2026-01-30 07:30:17] No new tweets found or scraper failed
+[2026-01-30 07:30:17] Checking mock trade data...
+[2026-01-30 07:30:17] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:30:17] Queued alert for Discord DM
+[2026-01-30 07:30:17] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:30:17] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:30:17] Queued alert for Discord DM
+[2026-01-30 07:30:17] Alert ready to send: AAPL block $150000
+[2026-01-30 07:30:17] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:30:17] Queued alert for Discord DM
+[2026-01-30 07:30:17] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:30:17] Check complete
+[2026-01-30 07:34:08] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:34:08] Using browser automation to check tweets...
+[2026-01-30 07:34:10] No new tweets found or scraper failed
+[2026-01-30 07:34:10] Checking mock trade data...
+[2026-01-30 07:34:10] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:34:10] Queued alert for Discord DM
+[2026-01-30 07:34:10] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:34:10] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:34:10] Queued alert for Discord DM
+[2026-01-30 07:34:10] Alert ready to send: AAPL block $150000
+[2026-01-30 07:34:10] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:34:10] Queued alert for Discord DM
+[2026-01-30 07:34:10] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:34:10] Check complete
+[2026-01-30 07:34:59] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:34:59] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:34:59] Playwright not available - using mock data for testing
+[2026-01-30 07:34:59] Playwright not available - using mock data for testing
+[2026-01-30 07:34:59] Checking mock trade data...
+[2026-01-30 07:34:59] Checking mock trade data...
+[2026-01-30 07:34:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:34:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:34:59] Alert ready to send: SPY sweep $250000
+[2026-01-30 07:34:59] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:34:59] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Alert ready to send: AAPL block $150000
+[2026-01-30 07:34:59] Alert ready to send: AAPL block $150000
+[2026-01-30 07:34:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:34:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Queued alert for Discord DM
+[2026-01-30 07:34:59] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:34:59] Alert ready to send: TSLA sweep $500000
+[2026-01-30 07:35:58] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:35:58] Using browser automation to check tweets...
+[2026-01-30 07:35:59] No new tweets found or scraper failed
+[2026-01-30 07:35:59] Checking for trade alerts...
+[2026-01-30 07:35:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:35:59] ❌ Failed to send Discord alert: Method Not Allowed
+[2026-01-30 07:37:15] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:37:15] Using browser automation to check tweets...
+[2026-01-30 07:37:16] No new tweets found or scraper failed
+[2026-01-30 07:37:16] Checking for trade alerts...
+[2026-01-30 07:37:16] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:37:16] ❌ Failed to send Discord alert: Method Not Allowed
+[2026-01-30 07:38:24] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:38:24] Using browser automation to check tweets...
+[2026-01-30 07:38:26] No new tweets found or scraper failed
+[2026-01-30 07:38:26] Checking for trade alerts...
+[2026-01-30 07:38:26] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:38:26] ✅ Discord alert sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:38:27] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:38:27] ✅ Discord alert sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:38:28] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:38:28] ✅ Discord alert sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:38:29] Check complete
+[2026-01-30 07:39:59] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:39:59] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:39:59] Playwright not available - using mock data for testing
+[2026-01-30 07:39:59] Playwright not available - using mock data for testing
+[2026-01-30 07:39:59] Checking for trade alerts...
+[2026-01-30 07:39:59] Checking for trade alerts...
+[2026-01-30 07:39:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:39:59] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:39:59] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:39:59] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:40:00] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:40:00] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:40:00] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:40:00] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:40:01] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:40:01] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:40:01] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:40:01] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:40:02] Check complete
+[2026-01-30 07:40:02] Check complete
+[2026-01-30 07:41:41] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:41:41] Using browser automation to check tweets...
+[2026-01-30 07:41:42] No new tweets found or scraper failed
+[2026-01-30 07:41:42] Checking for trade alerts...
+[2026-01-30 07:41:42] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:41:46] ✅ Discord alert sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:41:47] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:41:50] ✅ Discord alert sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:41:51] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:41:53] ✅ Discord alert sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:41:54] Check complete
+[2026-01-30 07:45:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:45:02] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:45:02] Playwright not available - using mock data for testing
+[2026-01-30 07:45:02] Playwright not available - using mock data for testing
+[2026-01-30 07:45:02] Checking for trade alerts...
+[2026-01-30 07:45:02] Checking for trade alerts...
+[2026-01-30 07:45:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:45:02] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:45:02] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:45:02] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:45:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:45:03] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:45:03] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:45:03] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:45:04] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:45:04] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:45:04] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:45:04] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:45:06] Check complete
+[2026-01-30 07:45:06] Check complete
+[2026-01-30 07:50:06] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:50:06] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:50:06] Playwright not available - using mock data for testing
+[2026-01-30 07:50:06] Playwright not available - using mock data for testing
+[2026-01-30 07:50:06] Checking for trade alerts...
+[2026-01-30 07:50:06] Checking for trade alerts...
+[2026-01-30 07:50:06] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:50:06] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:50:06] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:50:06] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:50:07] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:50:07] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:50:07] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:50:07] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:50:08] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:50:08] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:50:08] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:50:08] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:50:09] Check complete
+[2026-01-30 07:50:09] Check complete
+[2026-01-30 07:55:09] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:55:09] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 07:55:09] Playwright not available - using mock data for testing
+[2026-01-30 07:55:09] Playwright not available - using mock data for testing
+[2026-01-30 07:55:09] Checking for trade alerts...
+[2026-01-30 07:55:09] Checking for trade alerts...
+[2026-01-30 07:55:09] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:55:09] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 07:55:09] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:55:09] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 07:55:10] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:55:10] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 07:55:10] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:55:10] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 07:55:11] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:55:11] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 07:55:11] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:55:11] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 07:55:12] Check complete
+[2026-01-30 07:55:12] Check complete
+[2026-01-30 08:00:12] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:00:12] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:00:12] Playwright not available - using mock data for testing
+[2026-01-30 08:00:12] Playwright not available - using mock data for testing
+[2026-01-30 08:00:12] Checking for trade alerts...
+[2026-01-30 08:00:12] Checking for trade alerts...
+[2026-01-30 08:00:12] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:00:12] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:00:12] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:00:12] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:00:13] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:00:13] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:00:13] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:00:13] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:00:15] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:00:15] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:00:15] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:00:15] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:00:16] Check complete
+[2026-01-30 08:00:16] Check complete
+[2026-01-30 08:05:16] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:05:16] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:05:16] Playwright not available - using mock data for testing
+[2026-01-30 08:05:16] Playwright not available - using mock data for testing
+[2026-01-30 08:05:16] Checking for trade alerts...
+[2026-01-30 08:05:16] Checking for trade alerts...
+[2026-01-30 08:05:16] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:05:16] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:05:16] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:05:16] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:05:17] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:05:17] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:05:17] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:05:17] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:05:18] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:05:18] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:05:18] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:05:18] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:05:19] Check complete
+[2026-01-30 08:05:19] Check complete
+[2026-01-30 08:10:19] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:10:19] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:10:19] Playwright not available - using mock data for testing
+[2026-01-30 08:10:19] Playwright not available - using mock data for testing
+[2026-01-30 08:10:19] Checking for trade alerts...
+[2026-01-30 08:10:19] Checking for trade alerts...
+[2026-01-30 08:10:19] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:10:19] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:10:19] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:10:19] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:10:20] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:10:20] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:10:20] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:10:20] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:10:21] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:10:21] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:10:21] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:10:21] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:10:22] Check complete
+[2026-01-30 08:10:22] Check complete
+[2026-01-30 08:15:22] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:15:22] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:15:22] Playwright not available - using mock data for testing
+[2026-01-30 08:15:22] Playwright not available - using mock data for testing
+[2026-01-30 08:15:22] Checking for trade alerts...
+[2026-01-30 08:15:22] Checking for trade alerts...
+[2026-01-30 08:15:22] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:15:22] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:15:22] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:15:22] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:15:24] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:15:24] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:15:24] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:15:24] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:15:25] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:15:25] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:15:25] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:15:25] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:15:26] Check complete
+[2026-01-30 08:15:26] Check complete
+[2026-01-30 08:20:26] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:20:26] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:20:26] Playwright not available - using mock data for testing
+[2026-01-30 08:20:26] Playwright not available - using mock data for testing
+[2026-01-30 08:20:26] Checking for trade alerts...
+[2026-01-30 08:20:26] Checking for trade alerts...
+[2026-01-30 08:20:26] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:20:26] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:20:26] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:20:26] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:20:27] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:20:27] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:20:27] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:20:27] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:20:28] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:20:28] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:20:28] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:20:28] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:20:29] Check complete
+[2026-01-30 08:20:29] Check complete
+[2026-01-30 08:25:29] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:25:29] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:25:29] Playwright not available - using mock data for testing
+[2026-01-30 08:25:29] Playwright not available - using mock data for testing
+[2026-01-30 08:25:29] Checking for trade alerts...
+[2026-01-30 08:25:29] Checking for trade alerts...
+[2026-01-30 08:25:29] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:25:29] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:25:29] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:25:29] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:25:30] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:25:30] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:25:30] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:25:30] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:25:31] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:25:31] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:25:31] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:25:31] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:25:32] Check complete
+[2026-01-30 08:25:32] Check complete
+[2026-01-30 08:30:32] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:30:32] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:30:32] Playwright not available - using mock data for testing
+[2026-01-30 08:30:32] Playwright not available - using mock data for testing
+[2026-01-30 08:30:32] Checking for trade alerts...
+[2026-01-30 08:30:32] Checking for trade alerts...
+[2026-01-30 08:30:33] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:30:33] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:30:33] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:30:33] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:30:34] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:30:34] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:30:34] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:30:34] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:30:35] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:30:35] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:30:35] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:30:35] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:30:36] Check complete
+[2026-01-30 08:30:36] Check complete
+[2026-01-30 08:35:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:35:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:35:36] Playwright not available - using mock data for testing
+[2026-01-30 08:35:36] Playwright not available - using mock data for testing
+[2026-01-30 08:35:36] Checking for trade alerts...
+[2026-01-30 08:35:36] Checking for trade alerts...
+[2026-01-30 08:35:36] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:35:36] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:35:36] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:35:36] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:35:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:35:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:35:37] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:35:37] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:35:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:35:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:35:38] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:35:38] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:35:39] Check complete
+[2026-01-30 08:35:39] Check complete
+[2026-01-30 08:40:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:40:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:40:39] Playwright not available - using mock data for testing
+[2026-01-30 08:40:39] Playwright not available - using mock data for testing
+[2026-01-30 08:40:39] Checking for trade alerts...
+[2026-01-30 08:40:39] Checking for trade alerts...
+[2026-01-30 08:40:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:40:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:40:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:40:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:40:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:40:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:40:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:40:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:40:42] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:40:42] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:40:42] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:40:42] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:40:43] Check complete
+[2026-01-30 08:40:43] Check complete
+[2026-01-30 08:45:43] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:45:43] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:45:43] Playwright not available - using mock data for testing
+[2026-01-30 08:45:43] Playwright not available - using mock data for testing
+[2026-01-30 08:45:43] Checking for trade alerts...
+[2026-01-30 08:45:43] Checking for trade alerts...
+[2026-01-30 08:45:43] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:45:43] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:45:43] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:45:43] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:45:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:45:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:45:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:45:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:45:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:45:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:45:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:45:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:45:46] Check complete
+[2026-01-30 08:45:46] Check complete
+[2026-01-30 08:50:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:50:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:50:46] Playwright not available - using mock data for testing
+[2026-01-30 08:50:46] Playwright not available - using mock data for testing
+[2026-01-30 08:50:46] Checking for trade alerts...
+[2026-01-30 08:50:46] Checking for trade alerts...
+[2026-01-30 08:50:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:50:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:50:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:50:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:50:47] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:50:47] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:50:47] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:50:47] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:50:48] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:50:48] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:50:48] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:50:48] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:50:49] Check complete
+[2026-01-30 08:50:49] Check complete
+[2026-01-30 08:55:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:55:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 08:55:50] Playwright not available - using mock data for testing
+[2026-01-30 08:55:50] Playwright not available - using mock data for testing
+[2026-01-30 08:55:50] Checking for trade alerts...
+[2026-01-30 08:55:50] Checking for trade alerts...
+[2026-01-30 08:55:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:55:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 08:55:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:55:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 08:55:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:55:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 08:55:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:55:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 08:55:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:55:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 08:55:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:55:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 08:55:53] Check complete
+[2026-01-30 08:55:53] Check complete
+[2026-01-30 09:00:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:00:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:00:53] Playwright not available - using mock data for testing
+[2026-01-30 09:00:53] Playwright not available - using mock data for testing
+[2026-01-30 09:00:53] Checking for trade alerts...
+[2026-01-30 09:00:53] Checking for trade alerts...
+[2026-01-30 09:00:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:00:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:00:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:00:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:00:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:00:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:00:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:00:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:00:55] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:00:55] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:00:55] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:00:55] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:00:56] Check complete
+[2026-01-30 09:00:56] Check complete
+[2026-01-30 09:05:56] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:05:56] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:05:56] Playwright not available - using mock data for testing
+[2026-01-30 09:05:56] Playwright not available - using mock data for testing
+[2026-01-30 09:05:56] Checking for trade alerts...
+[2026-01-30 09:05:56] Checking for trade alerts...
+[2026-01-30 09:05:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:05:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:05:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:05:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:05:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:05:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:05:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:05:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:05:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:05:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:05:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:05:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:06:00] Check complete
+[2026-01-30 09:06:00] Check complete
+[2026-01-30 09:11:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:11:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:11:00] Playwright not available - using mock data for testing
+[2026-01-30 09:11:00] Playwright not available - using mock data for testing
+[2026-01-30 09:11:00] Checking for trade alerts...
+[2026-01-30 09:11:00] Checking for trade alerts...
+[2026-01-30 09:11:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:11:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:11:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:11:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:11:01] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:11:01] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:11:01] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:11:01] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:11:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:11:02] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:11:02] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:11:02] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:11:03] Check complete
+[2026-01-30 09:11:03] Check complete
+[2026-01-30 09:16:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:16:03] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:16:03] Playwright not available - using mock data for testing
+[2026-01-30 09:16:03] Playwright not available - using mock data for testing
+[2026-01-30 09:16:03] Checking for trade alerts...
+[2026-01-30 09:16:03] Checking for trade alerts...
+[2026-01-30 09:16:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:16:03] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:16:03] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:16:03] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:16:04] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:16:04] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:16:04] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:16:04] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:16:05] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:16:05] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:16:05] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:16:05] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:16:07] Check complete
+[2026-01-30 09:16:07] Check complete
+[2026-01-30 09:21:07] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:21:07] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:21:07] Playwright not available - using mock data for testing
+[2026-01-30 09:21:07] Playwright not available - using mock data for testing
+[2026-01-30 09:21:07] Checking for trade alerts...
+[2026-01-30 09:21:07] Checking for trade alerts...
+[2026-01-30 09:21:07] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:21:07] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:21:07] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:21:07] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:21:08] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:21:08] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:21:08] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:21:08] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:21:09] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:21:09] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:21:09] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:21:09] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:21:10] Check complete
+[2026-01-30 09:21:10] Check complete
+[2026-01-30 09:26:10] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:26:10] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:26:10] Playwright not available - using mock data for testing
+[2026-01-30 09:26:10] Playwright not available - using mock data for testing
+[2026-01-30 09:26:10] Checking for trade alerts...
+[2026-01-30 09:26:10] Checking for trade alerts...
+[2026-01-30 09:26:10] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:26:10] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:26:10] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:26:10] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:26:11] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:26:11] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:26:11] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:26:11] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:26:12] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:26:12] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:26:12] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:26:12] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:26:13] Check complete
+[2026-01-30 09:26:13] Check complete
+[2026-01-30 09:31:14] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:31:14] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:31:14] Playwright not available - using mock data for testing
+[2026-01-30 09:31:14] Playwright not available - using mock data for testing
+[2026-01-30 09:31:14] Checking for trade alerts...
+[2026-01-30 09:31:14] Checking for trade alerts...
+[2026-01-30 09:31:14] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:31:14] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:31:14] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:31:14] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:31:15] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:31:15] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:31:15] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:31:15] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:31:16] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:31:16] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:31:16] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:31:16] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:31:17] Check complete
+[2026-01-30 09:31:17] Check complete
+[2026-01-30 09:36:17] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:36:17] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:36:17] Playwright not available - using mock data for testing
+[2026-01-30 09:36:17] Playwright not available - using mock data for testing
+[2026-01-30 09:36:17] Checking for trade alerts...
+[2026-01-30 09:36:17] Checking for trade alerts...
+[2026-01-30 09:36:17] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:36:17] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:36:17] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:36:17] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:36:18] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:36:18] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:36:18] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:36:18] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:36:19] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:36:19] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:36:19] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:36:19] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:36:20] Check complete
+[2026-01-30 09:36:20] Check complete
+[2026-01-30 09:41:20] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:41:20] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:41:20] Playwright not available - using mock data for testing
+[2026-01-30 09:41:20] Playwright not available - using mock data for testing
+[2026-01-30 09:41:20] Checking for trade alerts...
+[2026-01-30 09:41:20] Checking for trade alerts...
+[2026-01-30 09:41:20] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:41:20] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:41:20] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:41:20] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:41:22] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:41:22] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:41:22] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:41:22] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:41:23] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:41:23] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:41:23] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:41:23] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:41:24] Check complete
+[2026-01-30 09:41:24] Check complete
+[2026-01-30 09:46:24] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:46:24] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:46:24] Playwright not available - using mock data for testing
+[2026-01-30 09:46:24] Playwright not available - using mock data for testing
+[2026-01-30 09:46:24] Checking for trade alerts...
+[2026-01-30 09:46:24] Checking for trade alerts...
+[2026-01-30 09:46:24] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:46:24] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:46:24] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:46:24] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:46:25] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:46:25] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:46:25] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:46:25] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:46:27] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:46:27] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:46:27] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:46:27] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:46:28] Check complete
+[2026-01-30 09:46:28] Check complete
+[2026-01-30 09:51:28] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:51:28] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:51:28] Playwright not available - using mock data for testing
+[2026-01-30 09:51:28] Playwright not available - using mock data for testing
+[2026-01-30 09:51:28] Checking for trade alerts...
+[2026-01-30 09:51:28] Checking for trade alerts...
+[2026-01-30 09:51:28] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:51:28] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:51:28] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:51:28] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:51:29] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:51:29] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:51:29] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:51:29] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:51:30] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:51:30] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:51:30] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:51:30] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:51:31] Check complete
+[2026-01-30 09:51:31] Check complete
+[2026-01-30 09:56:31] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:56:31] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 09:56:31] Playwright not available - using mock data for testing
+[2026-01-30 09:56:31] Playwright not available - using mock data for testing
+[2026-01-30 09:56:31] Checking for trade alerts...
+[2026-01-30 09:56:31] Checking for trade alerts...
+[2026-01-30 09:56:31] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:56:31] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 09:56:31] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:56:31] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 09:56:33] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:56:33] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 09:56:33] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:56:33] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 09:56:34] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:56:34] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 09:56:34] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:56:34] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 09:56:35] Check complete
+[2026-01-30 09:56:35] Check complete
+[2026-01-30 10:01:35] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:01:35] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:01:35] Playwright not available - using mock data for testing
+[2026-01-30 10:01:35] Playwright not available - using mock data for testing
+[2026-01-30 10:01:35] Checking for trade alerts...
+[2026-01-30 10:01:35] Checking for trade alerts...
+[2026-01-30 10:01:35] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:01:35] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:01:35] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:01:35] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:01:36] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:01:36] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:01:36] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:01:36] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:01:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:01:37] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:01:37] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:01:37] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:01:39] Check complete
+[2026-01-30 10:01:39] Check complete
+[2026-01-30 10:06:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:06:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:06:39] Playwright not available - using mock data for testing
+[2026-01-30 10:06:39] Playwright not available - using mock data for testing
+[2026-01-30 10:06:39] Checking for trade alerts...
+[2026-01-30 10:06:39] Checking for trade alerts...
+[2026-01-30 10:06:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:06:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:06:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:06:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:06:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:06:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:06:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:06:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:06:41] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:06:41] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:06:41] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:06:41] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:06:42] Check complete
+[2026-01-30 10:06:42] Check complete
+[2026-01-30 10:11:42] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:11:42] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:11:42] Playwright not available - using mock data for testing
+[2026-01-30 10:11:42] Playwright not available - using mock data for testing
+[2026-01-30 10:11:42] Checking for trade alerts...
+[2026-01-30 10:11:42] Checking for trade alerts...
+[2026-01-30 10:11:42] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:11:42] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:11:42] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:11:42] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:11:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:11:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:11:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:11:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:11:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:11:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:11:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:11:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:11:46] Check complete
+[2026-01-30 10:11:46] Check complete
+[2026-01-30 10:16:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:16:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:16:46] Playwright not available - using mock data for testing
+[2026-01-30 10:16:46] Playwright not available - using mock data for testing
+[2026-01-30 10:16:46] Checking for trade alerts...
+[2026-01-30 10:16:46] Checking for trade alerts...
+[2026-01-30 10:16:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:16:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:16:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:16:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:16:47] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:16:47] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:16:47] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:16:47] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:16:48] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:16:48] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:16:48] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:16:48] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:16:49] Check complete
+[2026-01-30 10:16:49] Check complete
+[2026-01-30 10:21:49] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:21:49] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:21:49] Playwright not available - using mock data for testing
+[2026-01-30 10:21:49] Playwright not available - using mock data for testing
+[2026-01-30 10:21:49] Checking for trade alerts...
+[2026-01-30 10:21:49] Checking for trade alerts...
+[2026-01-30 10:21:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:21:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:21:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:21:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:21:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:21:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:21:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:21:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:21:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:21:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:21:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:21:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:21:53] Check complete
+[2026-01-30 10:21:53] Check complete
+[2026-01-30 10:26:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:26:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:26:53] Playwright not available - using mock data for testing
+[2026-01-30 10:26:53] Playwright not available - using mock data for testing
+[2026-01-30 10:26:53] Checking for trade alerts...
+[2026-01-30 10:26:53] Checking for trade alerts...
+[2026-01-30 10:26:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:26:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:26:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:26:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:26:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:26:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:26:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:26:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:26:56] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:26:56] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:26:56] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:26:56] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:26:57] Check complete
+[2026-01-30 10:26:57] Check complete
+[2026-01-30 10:31:57] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:31:57] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:31:57] Playwright not available - using mock data for testing
+[2026-01-30 10:31:57] Playwright not available - using mock data for testing
+[2026-01-30 10:31:57] Checking for trade alerts...
+[2026-01-30 10:31:57] Checking for trade alerts...
+[2026-01-30 10:31:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:31:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:31:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:31:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:31:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:31:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:31:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:31:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:31:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:31:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:31:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:31:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:32:00] Check complete
+[2026-01-30 10:32:00] Check complete
+[2026-01-30 10:37:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:37:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:37:00] Playwright not available - using mock data for testing
+[2026-01-30 10:37:00] Playwright not available - using mock data for testing
+[2026-01-30 10:37:00] Checking for trade alerts...
+[2026-01-30 10:37:00] Checking for trade alerts...
+[2026-01-30 10:37:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:37:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:37:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:37:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:37:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:37:02] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:37:02] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:37:02] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:37:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:37:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:37:03] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:37:03] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:37:04] Check complete
+[2026-01-30 10:37:04] Check complete
+[2026-01-30 10:42:04] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:42:04] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:42:04] Playwright not available - using mock data for testing
+[2026-01-30 10:42:04] Playwright not available - using mock data for testing
+[2026-01-30 10:42:04] Checking for trade alerts...
+[2026-01-30 10:42:04] Checking for trade alerts...
+[2026-01-30 10:42:04] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:42:04] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:42:04] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:42:04] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:42:05] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:42:05] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:42:05] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:42:05] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:42:06] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:42:06] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:42:06] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:42:06] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:42:07] Check complete
+[2026-01-30 10:42:07] Check complete
+[2026-01-30 10:47:07] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:47:07] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:47:07] Playwright not available - using mock data for testing
+[2026-01-30 10:47:07] Playwright not available - using mock data for testing
+[2026-01-30 10:47:07] Checking for trade alerts...
+[2026-01-30 10:47:07] Checking for trade alerts...
+[2026-01-30 10:47:07] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:47:07] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:47:07] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:47:07] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:47:09] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:47:09] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:47:09] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:47:09] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:47:10] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:47:10] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:47:10] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:47:10] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:47:11] Check complete
+[2026-01-30 10:47:11] Check complete
+[2026-01-30 10:52:11] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:52:11] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:52:11] Playwright not available - using mock data for testing
+[2026-01-30 10:52:11] Playwright not available - using mock data for testing
+[2026-01-30 10:52:11] Checking for trade alerts...
+[2026-01-30 10:52:11] Checking for trade alerts...
+[2026-01-30 10:52:11] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:52:11] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:52:11] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:52:11] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:52:12] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:52:12] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:52:12] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:52:12] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:52:14] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:52:14] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:52:14] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:52:14] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:52:15] Check complete
+[2026-01-30 10:52:15] Check complete
+[2026-01-30 10:57:15] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:57:15] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 10:57:15] Playwright not available - using mock data for testing
+[2026-01-30 10:57:15] Playwright not available - using mock data for testing
+[2026-01-30 10:57:15] Checking for trade alerts...
+[2026-01-30 10:57:15] Checking for trade alerts...
+[2026-01-30 10:57:15] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:57:15] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 10:57:15] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:57:15] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 10:57:16] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:57:16] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 10:57:16] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:57:16] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 10:57:17] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:57:17] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 10:57:17] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:57:17] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 10:57:18] Check complete
+[2026-01-30 10:57:18] Check complete
+[2026-01-30 11:02:18] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:02:18] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:02:18] Playwright not available - using mock data for testing
+[2026-01-30 11:02:18] Playwright not available - using mock data for testing
+[2026-01-30 11:02:18] Checking for trade alerts...
+[2026-01-30 11:02:18] Checking for trade alerts...
+[2026-01-30 11:02:18] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:02:18] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:02:18] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:02:18] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:02:19] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:02:19] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:02:19] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:02:19] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:02:21] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:02:21] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:02:21] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:02:21] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:02:22] Check complete
+[2026-01-30 11:02:22] Check complete
+[2026-01-30 11:07:22] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:07:22] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:07:22] Playwright not available - using mock data for testing
+[2026-01-30 11:07:22] Playwright not available - using mock data for testing
+[2026-01-30 11:07:22] Checking for trade alerts...
+[2026-01-30 11:07:22] Checking for trade alerts...
+[2026-01-30 11:07:22] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:07:22] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:07:22] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:07:22] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:07:23] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:07:23] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:07:23] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:07:23] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:07:24] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:07:24] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:07:24] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:07:24] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:07:25] Check complete
+[2026-01-30 11:07:25] Check complete
+[2026-01-30 11:12:25] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:12:25] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:12:25] Playwright not available - using mock data for testing
+[2026-01-30 11:12:25] Playwright not available - using mock data for testing
+[2026-01-30 11:12:25] Checking for trade alerts...
+[2026-01-30 11:12:25] Checking for trade alerts...
+[2026-01-30 11:12:25] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:12:25] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:12:25] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:12:25] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:12:27] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:12:27] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:12:27] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:12:27] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:12:28] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:12:28] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:12:28] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:12:28] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:12:29] Check complete
+[2026-01-30 11:12:29] Check complete
+[2026-01-30 11:17:29] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:17:29] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:17:29] Playwright not available - using mock data for testing
+[2026-01-30 11:17:29] Playwright not available - using mock data for testing
+[2026-01-30 11:17:29] Checking for trade alerts...
+[2026-01-30 11:17:29] Checking for trade alerts...
+[2026-01-30 11:17:29] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:17:29] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:17:29] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:17:29] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:17:30] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:17:30] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:17:30] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:17:30] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:17:31] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:17:31] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:17:31] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:17:31] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:17:32] Check complete
+[2026-01-30 11:17:32] Check complete
+[2026-01-30 11:22:32] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:22:32] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:22:32] Playwright not available - using mock data for testing
+[2026-01-30 11:22:32] Playwright not available - using mock data for testing
+[2026-01-30 11:22:32] Checking for trade alerts...
+[2026-01-30 11:22:32] Checking for trade alerts...
+[2026-01-30 11:22:32] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:22:32] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:22:32] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:22:32] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:22:34] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:22:34] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:22:34] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:22:34] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:22:35] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:22:35] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:22:35] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:22:35] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:22:36] Check complete
+[2026-01-30 11:22:36] Check complete
+[2026-01-30 11:27:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:27:36] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:27:36] Playwright not available - using mock data for testing
+[2026-01-30 11:27:36] Playwright not available - using mock data for testing
+[2026-01-30 11:27:36] Checking for trade alerts...
+[2026-01-30 11:27:36] Checking for trade alerts...
+[2026-01-30 11:27:36] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:27:36] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:27:36] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:27:36] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:27:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:27:37] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:27:37] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:27:37] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:27:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:27:38] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:27:38] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:27:38] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:27:39] Check complete
+[2026-01-30 11:27:39] Check complete
+[2026-01-30 11:32:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:32:39] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:32:39] Playwright not available - using mock data for testing
+[2026-01-30 11:32:39] Playwright not available - using mock data for testing
+[2026-01-30 11:32:39] Checking for trade alerts...
+[2026-01-30 11:32:39] Checking for trade alerts...
+[2026-01-30 11:32:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:32:39] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:32:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:32:39] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:32:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:32:40] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:32:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:32:40] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:32:42] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:32:42] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:32:42] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:32:42] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:32:43] Check complete
+[2026-01-30 11:32:43] Check complete
+[2026-01-30 11:37:43] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:37:43] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:37:43] Playwright not available - using mock data for testing
+[2026-01-30 11:37:43] Playwright not available - using mock data for testing
+[2026-01-30 11:37:43] Checking for trade alerts...
+[2026-01-30 11:37:43] Checking for trade alerts...
+[2026-01-30 11:37:43] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:37:43] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:37:43] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:37:43] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:37:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:37:44] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:37:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:37:44] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:37:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:37:45] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:37:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:37:45] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:37:46] Check complete
+[2026-01-30 11:37:46] Check complete
+[2026-01-30 11:42:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:42:46] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:42:46] Playwright not available - using mock data for testing
+[2026-01-30 11:42:46] Playwright not available - using mock data for testing
+[2026-01-30 11:42:46] Checking for trade alerts...
+[2026-01-30 11:42:46] Checking for trade alerts...
+[2026-01-30 11:42:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:42:46] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:42:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:42:46] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:42:48] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:42:48] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:42:48] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:42:48] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:42:49] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:42:49] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:42:49] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:42:49] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:42:50] Check complete
+[2026-01-30 11:42:50] Check complete
+[2026-01-30 11:47:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:47:50] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:47:50] Playwright not available - using mock data for testing
+[2026-01-30 11:47:50] Playwright not available - using mock data for testing
+[2026-01-30 11:47:50] Checking for trade alerts...
+[2026-01-30 11:47:50] Checking for trade alerts...
+[2026-01-30 11:47:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:47:50] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:47:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:47:50] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:47:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:47:51] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:47:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:47:51] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:47:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:47:52] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:47:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:47:52] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:47:53] Check complete
+[2026-01-30 11:47:53] Check complete
+[2026-01-30 11:52:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:52:53] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:52:53] Playwright not available - using mock data for testing
+[2026-01-30 11:52:53] Playwright not available - using mock data for testing
+[2026-01-30 11:52:53] Checking for trade alerts...
+[2026-01-30 11:52:53] Checking for trade alerts...
+[2026-01-30 11:52:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:52:53] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:52:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:52:53] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:52:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:52:54] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:52:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:52:54] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:52:56] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:52:56] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:52:56] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:52:56] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:52:57] Check complete
+[2026-01-30 11:52:57] Check complete
+[2026-01-30 11:57:57] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:57:57] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 11:57:57] Playwright not available - using mock data for testing
+[2026-01-30 11:57:57] Playwright not available - using mock data for testing
+[2026-01-30 11:57:57] Checking for trade alerts...
+[2026-01-30 11:57:57] Checking for trade alerts...
+[2026-01-30 11:57:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:57:57] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 11:57:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:57:57] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 11:57:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:57:58] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 11:57:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:57:58] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 11:57:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:57:59] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 11:57:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:57:59] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 11:58:00] Check complete
+[2026-01-30 11:58:00] Check complete
+[2026-01-30 12:01:24] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 12:01:24] Using browser automation to check tweets...
+[2026-01-30 12:01:25] No new tweets found or scraper failed
+[2026-01-30 12:01:25] Checking for trade alerts...
+[2026-01-30 12:01:25] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 12:01:25] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 12:01:26] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 12:01:26] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 12:01:27] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 12:01:27] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 12:01:28] Check complete
+[2026-01-30 12:03:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 12:03:00] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 12:03:00] Playwright not available - using mock data for testing
+[2026-01-30 12:03:00] Playwright not available - using mock data for testing
+[2026-01-30 12:03:00] Checking for trade alerts...
+[2026-01-30 12:03:00] Checking for trade alerts...
+[2026-01-30 12:03:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 12:03:00] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 12:03:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 12:03:00] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 12:03:01] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 12:03:01] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 12:03:01] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 12:03:01] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 12:03:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 12:03:03] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 12:03:03] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 12:03:03] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 12:03:04] Check complete
+[2026-01-30 12:03:04] Check complete
+[2026-01-30 12:08:04] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 12:08:04] Checking Cheddar Flow X/Twitter (@CheddarFlow)...
+[2026-01-30 12:08:04] Playwright not available - using mock data for testing
+[2026-01-30 12:08:04] Playwright not available - using mock data for testing
+[2026-01-30 12:08:04] Checking for trade alerts...
+[2026-01-30 12:08:04] Checking for trade alerts...
+[2026-01-30 12:08:04] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 12:08:04] 🚨 ALERT: SPY 450 CALL 2026-02-07 - sweep - $250000
+[2026-01-30 12:08:04] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 12:08:04] Alert already sent: SPY_450_CALL_2026-02-07_20260130
+[2026-01-30 12:08:05] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 12:08:05] 🚨 ALERT: AAPL 185 PUT 2026-02-14 - block - $150000
+[2026-01-30 12:08:05] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 12:08:05] Alert already sent: AAPL_185_PUT_2026-02-14_20260130
+[2026-01-30 12:08:06] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 12:08:06] 🚨 ALERT: TSLA 220 CALL 2026-02-07 - sweep - $500000
+[2026-01-30 12:08:06] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 12:08:06] Alert already sent: TSLA_220_CALL_2026-02-07_20260130
+[2026-01-30 12:08:07] Check complete
+[2026-01-30 12:08:07] Check complete
+[2026-01-30 12:14:15] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:14:15] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:19:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:19:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:24:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:24:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:29:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:29:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:34:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:34:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:39:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:39:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:44:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:44:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:49:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:49:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:54:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:54:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:59:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 12:59:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 13:04:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 13:04:16] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:04:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:04:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:09:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:09:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:14:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:14:08] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:19:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:19:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:24:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:24:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:29:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:29:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:34:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:34:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:39:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:39:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:44:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:44:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:49:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:49:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:54:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:54:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:59:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 17:59:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:04:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:04:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:09:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:09:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:14:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:14:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:19:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:19:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:24:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:24:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:29:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:29:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:34:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:34:09] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:39:10] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:39:10] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:44:10] Fetching real Cheddar Flow tweets...
+[2026-01-30 18:44:10] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:04:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:04:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:09:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:09:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:14:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:14:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:19:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:19:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:24:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:24:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:29:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:29:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:34:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:34:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:39:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:39:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:44:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 19:44:39] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:34:33] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:34:33] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:39:33] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:39:33] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:44:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:44:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:49:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:49:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:54:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:54:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:59:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 21:59:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:04:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:04:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:09:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:09:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:14:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:14:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:19:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:19:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:24:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:24:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:29:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:29:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:34:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:34:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:39:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:39:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:44:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:44:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:49:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:49:34] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:54:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:54:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:59:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 22:59:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:04:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:04:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:09:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:09:35] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:31:17] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:31:17] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:36:17] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:36:17] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:41:17] Fetching real Cheddar Flow tweets...
+[2026-01-30 23:41:17] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:41:59] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:41:59] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:54:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:54:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:59:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 07:59:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:04:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:04:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:09:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:09:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:14:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:14:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:19:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:19:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:24:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:24:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:29:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:29:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:34:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:34:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:39:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:39:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:44:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:44:29] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:49:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:49:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:54:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:54:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:59:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 08:59:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:04:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:04:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:09:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:09:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:14:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:14:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:19:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:19:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:24:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:24:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:29:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:29:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:34:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:34:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:39:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:39:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:44:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:44:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:49:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:49:30] Fetching real Cheddar Flow tweets...
+[2026-01-31 09:57:13] Fetching real Cheddar Flow tweets via bird CLI...
+[2026-01-31 09:57:13] Fetching real Cheddar Flow tweets via bird CLI...

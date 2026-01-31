@@ -1,0 +1,56 @@
+# Cheddar Flow Backtest Log
+# Generated: 2026-01-31
+# Period: Past 3 Months (200 tweets analyzed)
+
+=== PERFORMANCE SUMMARY ===
+Total Alerts: 133
+Alerts with Results: 7
+Win Rate: 100.0%
+Average Win: +206.9%
+Profit Factor: ∞
+
+=== PORTFOLIO SIMULATION ($10K Start) ===
+Starting Capital: $10,000
+Risk per Trade: 2%
+Trades Taken: 7
+Final Value: $13,193.75
+Total Return: +31.94%
+Profit: +$3,193.75
+
+=== TOP PERFORMERS ===
+1. Silver Whale +700% (Jan 30)
+2. Silver Whale +342% (Jan 30)
+3. $QQQ Power Alert +236% (Jan 14)
+4. $AAPL Whale +55% (Jan 30)
+
+=== SIGNAL BREAKDOWN ===
+CALL: 49
+PUT: 20
+UNUSUAL: 20
+WHALE: 15
+SWEEP: 12
+DARK_POOL: 4
+
+=== TOP SYMBOLS ===
+$SPY: 44 alerts
+$MSFT: 10 alerts
+$META: 7 alerts
+$TSLA: 6 alerts
+$AAPL: 4 alerts
+$NVDA: 4 alerts
+
+=== RISK METRICS ===
+Max Win: +700%
+Max Loss: -30%
+Average Return per Trade: +206.9%
+
+=== MONTHLY BREAKDOWN ===
+Jan 2026: 133 alerts | 7W/0L | 100% WR | Avg: +10.9%
+
+=== ENGAGEMENT ===
+Total Likes: 22,970
+Total Retweets: 1,672
+Total Replies: 1,630
+Avg Likes per Alert: 172.7
+
+# Detailed JSON: cheddar-backtest-detailed.json

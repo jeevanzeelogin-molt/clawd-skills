@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-01-31T17:55:35.463Z",
+  "period": "3 Months",
+  "totalTweets": 200,
+  "tradeAlerts": 133,
+  "metrics": {
+    "alertsWithResults": 7,
+    "winningTrades": 7,
+    "losingTrades": 0,
+    "winRate": "100.0",
+    "avgWin": "206.9",
+    "avgLoss": "0.0",
+    "profitFactor": "∞",
+    "maxWin": 700,
+    "maxLoss": 30,
+    "avgReturn": "206.9"
+  },
+  "signalTypes": {
+    "SWEEP": 12,
+    "PUT": 20,
+    "WHALE": 15,
+    "CALL": 49,
+    "UNUSUAL": 20,
+    "DARK_POOL": 4
+  },
+  "topSymbols": [
+    [
+      "SPY",
+      44
+    ],
+    [
+      "MSFT",
+      10
+    ],
+    [
+      "META",
+      7
+    ],
+    [
+      "TSLA",
+      6
+    ],
+    [
+      "AAPL",
+      4
+    ],
+    [
+      "NVDA",
+      4
+    ],
+    [
+      "MU",
+      3
+    ],
+    [
+      "VIX",
+      3
+    ],
+    [
+      "QQQ",
+      3
+    ],
+    [
+      "INTC",
+      3
+    ]
+  ],
+  "engagement": {
+    "totalLikes": 22970,
+    "totalRetweets": 1672,
+    "totalReplies": 1630,
+    "avgLikes": "172.7",
+    "avgRetweets": "12.6"
+  },
+  "monthlyBreakdown": {
+    "Jan 2026": {
+      "count": 133,
+      "wins": 7,
+      "losses": 0,
+      "totalReturn": 1448
+    }
+  },
+  "simulation": {
+    "startingCapital": 10000,
+    "finalValue": "13193.75",
+    "totalReturn": "31.94",
+    "profitLoss": "3193.75",
+    "tradesTaken": 7
+  },
+  "highPerformers": [
+    {
+      "returnPct": 700,
+      "date": "2026-01-30T18:58:45.000Z",
+      "symbol": null,
+      "text": "WTF. This same whale is now up +700% on their Silver puts in one day \n\nSee trades like this, realtim",
+      "url": "https://x.com/CheddarFlow/status/2017311541498892724"
+    },
+    {
+      "returnPct": 342,
+      "date": "2026-01-30T16:52:55.000Z",
+      "symbol": null,
+      "text": "Oh my...\n\nThis Silver whale is now up +342%\n\nThey made MILLIONS overnight https://t.co/xAhNEx4nVy",
+      "url": "https://x.com/CheddarFlow/status/2017279872226238786"
+    },
+    {
+      "returnPct": 236,
+      "date": "2026-01-14T16:03:17.000Z",
+      "symbol": "QQQ",
+      "text": "$QQQ Power Alert is now up +236% https://t.co/8vGq13h4kd",
+      "url": "https://x.com/CheddarFlow/status/2011469176569819370"
+    },
+    {
+      "returnPct": 55,
+      "date": "2026-01-30T15:20:12.000Z",
+      "symbol": "AAPL",
+      "text": "Well... That was fast\n\nWe were about to post this $AAPL print, but the whale is already up +55% in 1",
+      "url": "https://x.com/CheddarFlow/status/2017256539237552372"
+    }
+  ]
+}
