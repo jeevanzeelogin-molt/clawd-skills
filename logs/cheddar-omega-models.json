@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "id": "SLV_manual_1769885181_1769885182",
+      "alert_id": "manual_1769885181",
+      "symbol": "SLV",
+      "direction": "BEARISH",
+      "signal": "Put Sweep",
+      "strike": 100.0,
+      "expiry": "2026-02-21",
+      "entry_price": 75.44000244140625,
+      "entry_date": "2026-01-31T10:46:22.101258",
+      "expiry_date": "2026-02-21T00:00:00",
+      "days_to_expiry": 20,
+      "option_type": "PUT",
+      "volatility_at_entry": 1.2343,
+      "theoretical_price": 26.52,
+      "premium_paid": "1300000",
+      "greeks_at_entry": {
+        "delta": -0.7946,
+        "gamma": 0.013051,
+        "theta": -0.1657,
+        "vega": 0.0502
+      },
+      "snapshots": [],
+      "status": "ACTIVE",
+      "created_at": "2026-01-31T10:46:22.101882"
+    }
+  ]
+}
