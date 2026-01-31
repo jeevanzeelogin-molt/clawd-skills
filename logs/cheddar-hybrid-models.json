@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "id": "SLV_1769886440",
+      "symbol": "SLV",
+      "direction": "BEARISH",
+      "signal": "Alert",
+      "strike": 100.0,
+      "expiry": "2026-02-23",
+      "entry_price": 75.44,
+      "entry_date": "2026-01-31T11:07:20.429489",
+      "theoretical_entry_price": 26.95,
+      "volatility_at_entry": 1.2343,
+      "option_type": "PUT",
+      "greeks_at_entry": {
+        "delta": -0.772,
+        "gamma": 0.012926,
+        "theta": -0.164,
+        "vega": 0.0572
+      },
+      "snapshots": [],
+      "status": "ACTIVE",
+      "big_move_alerted": false,
+      "opra_verified": false
+    }
+  ],
+  "last_check": null
+}

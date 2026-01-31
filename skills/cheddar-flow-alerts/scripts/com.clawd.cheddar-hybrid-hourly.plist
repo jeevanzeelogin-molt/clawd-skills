@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.clawd.cheddar-hybrid-hourly</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/nemotaka/clawd/skills/cheddar-flow-alerts/scripts/hybrid-hourly.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/nemotaka/clawd/skills/cheddar-flow-alerts</string>
+
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/nemotaka/clawd/logs/cheddar-hybrid-hourly.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/nemotaka/clawd/logs/cheddar-hybrid-hourly-error.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "playwright": "^1.58.1"
+    "numpy": "^0.0.1",
+    "playwright": "^1.58.1",
+    "scipy": "^0.1.4",
+    "yfinance": "^0.0.6"
   }
 }
